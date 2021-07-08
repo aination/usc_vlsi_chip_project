@@ -1,0 +1,96 @@
+ ;  gather test-bench
+VLD $1, A		;0x0   load packet 1    decimal 10 onwards
+VLD $2, B		;0x4   load packet 2
+VLD $3, C		;0x8   load packet 3
+VLD $4, D		;0xc   load packet 4
+VLD $5, E		;0x10  load packet 5
+VLD $6, F		;0x14  load packet 6
+VLD $7, 10		;0x18  load packet 7
+VLD $8, 11		;0x1c  load packet 8
+VLD $9, 12		;0x20  load packet 9
+
+VLD $10, C001	;0x24  load output channel status register          #1
+VBNEZ $10, 24	;0x28  Branch to previous instruction if OCSR = 1
+VSD $1, C000	;0x2c  send packet 1 to output channel buffer
+
+VLD $11, C001	;0x30  load output channel status register          #2
+VBNEZ $11, 30	;0x34  Branch to previous instruction if OCSR = 1
+VSD $2, C000	;0x38  send packet 2 to output channel buffer
+
+VLD $12, C001	;0x3c  load output channel status register          #3
+VBNEZ $12, 3c	;0x40  Branch to previous instruction if OCSR = 1
+VSD $3, C000	;0x44  send packet 3 to output channel buffer
+
+VLD $13, C001	;0x48  load output channel status register          #4
+VBNEZ $13, 48	;0x4c  Branch to previous instruction if OCSR = 1
+VSD $4, C000	;0x50  send packet 4 to output channel buffer
+
+VLD $14, C001	;0x54  load output channel status register          #5
+VBNEZ $14, 54	;0x58  Branch to previous instruction if OCSR = 1
+VSD $5, C000	;0x5c  send packet 5 to output channel buffer
+
+VLD $15, C001	;0x60  load output channel status register          #6
+VBNEZ $15, 60	;0x64  Branch to previous instruction if OCSR = 1
+VSD $6, C000	;0x68  send packet 6 to output channel buffer
+
+VLD $16, C001	;0x6c  load output channel status register          #7
+VBNEZ $16, 6c	;0x70  Branch to previous instruction if OCSR = 1
+VSD $7, C000	;0x74  send packet 7 to output channel buffer
+
+VLD $17, C001	;0x78  load output channel status register          #8
+VBNEZ $17, 78	;0x7c  Branch to previous instruction if OCSR = 1
+VSD $8, C000	;0x80  send packet 8 to output channel buffer
+
+VLD $18, C001	;0x84  load output channel status register          #9
+VBNEZ $18, 84	;0x88  Branch to previous instruction if OCSR = 1
+VSD $9, C000	;0x8c  send packet 9 to output channel buffer
+
+VLD $19, C003	;0x90  load input channel status register          #1
+VBEZ $19, 90	;0x94  poll till packet 1 is available
+VLD $20, C002	;0x98  load input channel buffer
+
+VLD $19, C003	;0x9c  load input channel status register          #2
+VBEZ $19, 9C	;0xa0  poll till packet 2 is available
+VLD $21, C002	;0xa4  load input channel buffer
+
+VLD $19, C003	;0xa8  load input channel status register          #3
+VBEZ $19, A8	;0xac  poll till packet 3 is available
+VLD $22, C002	;0xb0  load input channel buffer
+
+VLD $19, C003	;0xb4  load input channel status register          #4
+VBEZ $19, B4	;0xb8  poll till packet 4 is available
+VLD $23, C002	;0xbc  load input channel buffer
+
+VLD $19, C003	;0xc0  load input channel status register          #5
+VBEZ $19, C0	;0xc4  poll till packet 5 is available
+VLD $24, C002	;0xc8  load input channel buffer
+
+VLD $19, C003	;0xcc  load input channel status register          #6
+VBEZ $19, CC	;0xd0  poll till packet 6 is available
+VLD $25, C002	;0xd4  load input channel buffer
+
+VLD $19, C003	;0xd8  load input channel status register          #7
+VBEZ $19, D8		;0xdc  poll till packet 7 is available
+VLD $26, C002	;0xe0  load input channel buffer
+
+VLD $19, C003	;0xe4  load input channel status register          #8
+VBEZ $19, E4		;0xe8  poll till packet 8 is available
+VLD $27, C002	;0xec  load input channel buffer
+
+VLD $19, C003	;0xf0  load input channel status register          #9
+VBEZ $19, F0	;0xf4  poll till packet 9 is available
+VLD $28, C002	;0xf8  load input channel buffer
+
+VSD $20, 19		;0xfc  store packet 1 into data memory             #1 decimal 25 onwards
+VSD $21, 1A		;0x100 store packet 2 into data memory             #2
+VSD $22, 1B 	;0x104 store packet 3 into data memory             #3
+VSD $23, 1C		;0x108 store packet 1 into data memory             #4
+VSD $24, 1D		;0x10c store packet 2 into data memory             #5
+VSD $25, 1E 	;0x110 store packet 3 into data memory             #6
+VSD $26, 1F		;0x114 store packet 1 into data memory             #7
+VSD $27, 20		;0x118 store packet 2 into data memory             #8
+VSD $28, 21 	;0x11c store packet 3 into data memory             #9
+VNOP 			;0x120 End
+
+
+

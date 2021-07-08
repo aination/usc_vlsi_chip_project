@@ -1,0 +1,1489 @@
+[12/04 22:01:42      0s] 
+[12/04 22:01:42      0s] Cadence Innovus(TM) Implementation System.
+[12/04 22:01:42      0s] Copyright 2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+[12/04 22:01:42      0s] 
+[12/04 22:01:42      0s] Version:	v16.20-p002_1, built Tue Nov 8 11:31:23 PST 2016
+[12/04 22:01:42      0s] Options:	
+[12/04 22:01:42      0s] Date:		Tue Dec  4 22:01:42 2018
+[12/04 22:01:42      0s] Host:		viterbi-scf2.usc.edu (x86_64 w/Linux 3.10.0-862.9.1.el7.x86_64) (10cores*80cpus*Intel(R) Xeon(R) CPU E7- 4870 @ 2.40GHz 30720KB)
+[12/04 22:01:42      0s] OS:		CentOS Linux release 7.5.1804 (Core) 
+[12/04 22:01:42      0s] 
+[12/04 22:01:42      0s] License:
+[12/04 22:01:42      0s] 		invs	Innovus Implementation System	16.2	checkout succeeded
+[12/04 22:01:42      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[12/04 22:01:44      1s] **ERROR: (IMPOAX-142):	Could not open shared library libinnovusoax22.so : /usr/local/cadence/INNOVUS162/tools/lib/64bit/libinnovusoax22.so: undefined symbol: _ZTIN12OpenAccess_418oaConflictObserverINS_8oaAppDefELj0EEE
+[12/04 22:01:44      1s] 
+[12/04 22:01:44      1s] **ERROR: (IMPOAX-142):	Could not open shared library libcdsSkillPcell.so : /usr/local/cadence/INNOVUS162/tools/lib/64bit/libcdsSkillPcell.so: undefined symbol: _ZTIN12OpenAccess_413oaFSComponentE
+[12/04 22:01:44      1s] 
+[12/04 22:01:44      1s] **ERROR: (IMPOAX-142):	OA features will be disabled in this session.
+[12/04 22:01:44      1s] 
+[12/04 22:02:16     19s] @(#)CDS: Innovus v16.20-p002_1 (64bit) 11/08/2016 11:31 (Linux 2.6.18-194.el5)
+[12/04 22:02:16     19s] @(#)CDS: NanoRoute 16.20-p002_1 NR161103-1425/16_20-UB (database version 2.30, 354.6.1) {superthreading v1.34}
+[12/04 22:02:16     19s] @(#)CDS: AAE 16.20-p004 (64bit) 11/08/2016 (Linux 2.6.18-194.el5)
+[12/04 22:02:16     19s] @(#)CDS: CTE 16.20-p008_1 () Oct 29 2016 08:26:57 ( )
+[12/04 22:02:16     19s] @(#)CDS: SYNTECH 16.20-p001_1 () Oct 27 2016 11:33:00 ( )
+[12/04 22:02:16     19s] @(#)CDS: CPE v16.20-p011
+[12/04 22:02:16     19s] @(#)CDS: IQRC/TQRC 15.2.5-s803 (64bit) Tue Sep 13 18:23:58 PDT 2016 (Linux 2.6.18-194.el5)
+[12/04 22:02:16     19s] @(#)CDS: OA 22.50-p051 Thu Aug  4 00:05:16 2016
+[12/04 22:02:16     19s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[12/04 22:02:16     19s] @(#)CDS: RCDB 11.8
+[12/04 22:02:16     19s] --- Running on viterbi-scf2.usc.edu (x86_64 w/Linux 3.10.0-862.9.1.el7.x86_64) (10cores*80cpus*Intel(R) Xeon(R) CPU E7- 4870 @ 2.40GHz 30720KB) ---
+[12/04 22:02:16     19s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_62222_viterbi-scf2.usc.edu_saipraba_Lixj9V.
+
+[12/04 22:02:18     20s] 
+[12/04 22:02:18     20s] **INFO:  MMMC transition support version v31-84 
+[12/04 22:02:18     20s] 
+[12/04 22:02:18     20s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[12/04 22:02:18     20s] <CMD> suppressMessage ENCEXT-2799
+[12/04 22:02:18     20s] **ERROR: (IMPSYT-6689):	Invalid return code while sourcing "/usr/local/cadence/IC617/share/lpa/etc/lpawrapper/tcl/InShape/Encounter.tcl". Check and correct your Tcl script regarding below message:
+[12/04 22:02:18     20s]  couldn't read file "/usr/local/cadence/IC617/tools/bin/../tools.lnx86/lpa/bin/64bit/etc/lpawrapper/tcl/InShape/FixingHint.tcl": no such file or directory
+[12/04 22:02:18     21s] <CMD> getDrawView
+[12/04 22:02:18     21s] <CMD> loadWorkspace -name Physical
+[12/04 22:02:19     21s] <CMD> win
+[12/04 22:05:03     44s] <CMD> save_global ../Innovus-PNR/Default.globalscrc
+[12/04 22:05:04     44s] <CMD> set init_lef_file gscl45nm.lef
+[12/04 22:05:04     44s] <CMD> set init_design_settop 0
+[12/04 22:05:04     44s] <CMD> set init_verilog netlist/cmp.syn.v
+[12/04 22:05:04     44s] <CMD> set init_mmmc_file ../Innovus-PNR/Default.viewcrc
+[12/04 22:05:04     44s] <CMD> init_design
+[12/04 22:05:04     44s] **ERROR: (IMPOAX-820):	The OA features are disabled in the current session of Innovus because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Innovus either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[12/04 22:05:04     44s] 
+[12/04 22:05:04     44s] **ERROR: (IMPOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+[12/04 22:05:04     44s] #- Begin Load MMMC data ... (date=12/04 22:05:04, mem=502.4M)
+[12/04 22:05:04     44s] #- End Load MMMC data ... (date=12/04 22:05:04, total cpu=0:00:00.0, real=0:00:00.0, peak res=66.1M, current mem=502.4M)
+[12/04 22:05:04     44s] **WARN: (GLOBAL-100):	Global 'timing_disable_backward_compatible_mmmc_mode' has become obsolete. It will be removed in the next release.
+[12/04 22:05:04     44s] 
+[12/04 22:05:04     44s] Loading LEF file gscl45nm.lef ...
+[12/04 22:05:04     44s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_POLY', 
+[12/04 22:05:04     44s] Set DBUPerIGU to M2 pitch 380.
+[12/04 22:05:04     44s] 
+[12/04 22:05:04     44s] viaInitial starts at Tue Dec  4 22:05:04 2018
+viaInitial ends at Tue Dec  4 22:05:04 2018
+Loading view definition file from ../Innovus-PNR/Default.viewcrc
+[12/04 22:05:04     44s] Reading cmp_ls timing library '/home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf' ...
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'AND2X1' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'B' of cell 'AND2X1' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AND2X1' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'AND2X2' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'B' of cell 'AND2X2' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AND2X2' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'AOI21X1' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'B' of cell 'AOI21X1' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'C' of cell 'AOI21X1' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI21X1' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'AOI22X1' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'B' of cell 'AOI22X1' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'C' of cell 'AOI22X1' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'D' of cell 'AOI22X1' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI22X1' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'BUFX2' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'BUFX2' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'BUFX4' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'BUFX4' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] **WARN: (TECHLIB-436):	Attribute 'fanout_load' on 'input/inout' pin 'A' of cell 'CLKBUF1' is not defined in the library. (File /home/scf-06/saipraba/EE577B_syn_demo/gscl45nm.tlf)
+[12/04 22:05:04     44s] Message <TECHLIB-436> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[12/04 22:05:04     44s] Read 31 cells in library 'gscl45nm' 
+[12/04 22:05:04     44s] *** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.75min, fe_real=3.37min, fe_mem=517.6M) ***
+[12/04 22:05:05     44s] #- Begin Load netlist data ... (date=12/04 22:05:04, mem=517.6M)
+[12/04 22:05:05     44s] *** Begin netlist parsing (mem=517.6M) ***
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'gnd' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'vdd' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'gnd' of cell 'XNOR2X1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'vdd' of cell 'XNOR2X1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'gnd' of cell 'TBUFX2' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'vdd' of cell 'TBUFX2' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'gnd' of cell 'TBUFX1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'vdd' of cell 'TBUFX1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'gnd' of cell 'OR2X2' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'vdd' of cell 'OR2X2' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'gnd' of cell 'OR2X1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'vdd' of cell 'OR2X1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'gnd' of cell 'OAI21X1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'vdd' of cell 'OAI21X1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'gnd' of cell 'NOR3X1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'vdd' of cell 'NOR3X1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'gnd' of cell 'NOR2X1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'vdd' of cell 'NOR2X1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'gnd' of cell 'NAND3X1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (IMPVL-159):	Pin 'vdd' of cell 'NAND3X1' is defined in LEF but not in the timing library.
+[12/04 22:05:05     44s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+[12/04 22:05:05     44s] To increase the message display limit, refer to the product command reference manual.
+[12/04 22:05:05     44s] Created 31 new cells from 1 timing libraries.
+[12/04 22:05:05     44s] Reading netlist ...
+[12/04 22:05:05     44s] Backslashed names will retain backslash and a trailing blank character.
+[12/04 22:05:07     45s] Reading verilog netlist 'netlist/cmp.syn.v'
+[12/04 22:05:11     48s] 
+[12/04 22:05:11     48s] *** Memory Usage v#1 (Current mem = 644.578M, initial mem = 176.797M) ***
+[12/04 22:05:11     48s] *** End netlist parsing (cpu=0:00:03.3, real=0:00:06.0, mem=644.6M) ***
+[12/04 22:05:11     48s] #- End Load netlist data ... (date=12/04 22:05:11, total cpu=0:00:03.3, real=0:00:06.0, peak res=206.0M, current mem=644.6M)
+[12/04 22:05:11     48s] Top level cell is cmp.
+[12/04 22:05:12     48s] Hooked 31 DB cells to tlib cells.
+[12/04 22:05:12     48s] Starting recursive module instantiation check.
+[12/04 22:05:12     48s] No recursion found.
+[12/04 22:05:12     48s] Building hierarchical netlist for Cell cmp ...
+[12/04 22:05:12     49s] *** Netlist is unique.
+[12/04 22:05:12     49s] Set DBUPerIGU to techSite CoreSite width 760.
+[12/04 22:05:12     49s] ** info: there are 267 modules.
+[12/04 22:05:12     49s] ** info: there are 213314 stdCell insts.
+[12/04 22:05:13     49s] 
+[12/04 22:05:13     49s] *** Memory Usage v#1 (Current mem = 794.000M, initial mem = 176.797M) ***
+[12/04 22:05:13     50s] Horizontal Layer M1 offset = 190 (guessed)
+[12/04 22:05:13     50s] Vertical Layer M2 offset = 190 (guessed)
+[12/04 22:05:13     50s] Suggestion: specify LAYER OFFSET in LEF file
+[12/04 22:05:13     50s] Reason: hard to extract LAYER OFFSET from standard cells
+[12/04 22:05:13     50s] Generated pitch 1.68 in metal10 is different from 1.71 defined in technology file in preferred direction.
+[12/04 22:05:13     50s] Generated pitch 0.84 in metal8 is different from 0.855 defined in technology file in preferred direction.
+[12/04 22:05:13     50s] Generated pitch 0.95 in metal7 is different from 0.855 defined in technology file in preferred direction.
+[12/04 22:05:13     50s] Generated pitch 0.28 in metal6 is different from 0.285 defined in technology file in preferred direction.
+[12/04 22:05:13     50s] Generated pitch 0.28 in metal4 is different from 0.285 defined in technology file in preferred direction.
+[12/04 22:05:13     50s] Set Default Net Delay as 1000 ps.
+[12/04 22:05:13     50s] Set Default Net Load as 0.5 pF. 
+[12/04 22:05:13     50s] Set Default Input Pin Transition as 0.1 ps.
+[12/04 22:05:14     50s] Extraction setup Delayed 
+[12/04 22:05:14     50s] *Info: initialize multi-corner CTS.
+[12/04 22:05:14     50s] Reading timing constraints file 'cmp.sdc' ...
+[12/04 22:05:14     51s] Current (total cpu=0:00:51.0, real=0:03:32, peak res=440.4M, current mem=904.7M)
+[12/04 22:05:15     51s] INFO (CTE): Constraints read successfully.
+[12/04 22:05:15     51s] WARNING (CTE-25): Line: 8 of File cmp.sdc : Skipped unsupported command: set_units
+[12/04 22:05:15     51s] 
+[12/04 22:05:15     51s] 
+[12/04 22:05:15     51s] Ending "Constraint file reading stats" (total cpu=0:00:00.6, real=0:00:01.0, peak res=457.9M, current mem=923.5M)
+[12/04 22:05:15     51s] Current (total cpu=0:00:51.6, real=0:03:33, peak res=457.9M, current mem=923.5M)
+[12/04 22:05:15     51s] Summary for sequential cells identification: 
+[12/04 22:05:15     51s] Identified SBFF number: 3
+[12/04 22:05:15     51s] Identified MBFF number: 0
+[12/04 22:05:15     51s] Identified SB Latch number: 0
+[12/04 22:05:15     51s] Identified MB Latch number: 0
+[12/04 22:05:15     51s] Not identified SBFF number: 0
+[12/04 22:05:15     51s] Not identified MBFF number: 0
+[12/04 22:05:15     51s] Not identified SB Latch number: 0
+[12/04 22:05:15     51s] Not identified MB Latch number: 0
+[12/04 22:05:15     51s] Number of sequential cells which are not FFs: 1
+[12/04 22:05:15     51s] 
+[12/04 22:05:15     51s] Total number of combinational cells: 25
+[12/04 22:05:15     51s] Total number of sequential cells: 4
+[12/04 22:05:15     51s] Total number of tristate cells: 2
+[12/04 22:05:15     51s] Total number of level shifter cells: 0
+[12/04 22:05:15     51s] Total number of power gating cells: 0
+[12/04 22:05:15     51s] Total number of isolation cells: 0
+[12/04 22:05:15     51s] Total number of power switch cells: 0
+[12/04 22:05:15     51s] Total number of pulse generator cells: 0
+[12/04 22:05:15     51s] Total number of always on buffers: 0
+[12/04 22:05:15     51s] Total number of retention cells: 0
+[12/04 22:05:15     51s] List of usable buffers: BUFX2 BUFX4
+[12/04 22:05:15     51s] Total number of usable buffers: 2
+[12/04 22:05:15     51s] List of unusable buffers:
+[12/04 22:05:15     51s] Total number of unusable buffers: 0
+[12/04 22:05:15     51s] List of usable inverters: INVX2 INVX1 INVX4 INVX8
+[12/04 22:05:15     51s] Total number of usable inverters: 4
+[12/04 22:05:15     51s] List of unusable inverters:
+[12/04 22:05:15     51s] Total number of unusable inverters: 0
+[12/04 22:05:15     51s] List of identified usable delay cells: CLKBUF1 CLKBUF2 CLKBUF3
+[12/04 22:05:15     51s] Total number of identified usable delay cells: 3
+[12/04 22:05:15     51s] List of identified unusable delay cells:
+[12/04 22:05:15     51s] Total number of identified unusable delay cells: 0
+[12/04 22:05:16     51s] Patterns Extraction called explicitly through PreRoutePatternsIfNeeded call 
+[12/04 22:05:16     51s] Extraction setup Started 
+[12/04 22:05:16     51s] Initializing multi-corner RC extraction with 1 active RC Corners ...
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[12/04 22:05:16     51s] Type 'man IMPEXT-2773' for more detail.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2773):	The via resistance between layers M1 and M2 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[12/04 22:05:16     51s] Type 'man IMPEXT-2773' for more detail.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2773):	The via resistance between layers M2 and M3 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[12/04 22:05:16     51s] Type 'man IMPEXT-2773' for more detail.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2773):	The via resistance between layers M3 and M4 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[12/04 22:05:16     51s] Type 'man IMPEXT-2773' for more detail.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2773):	The via resistance between layers M4 and M5 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[12/04 22:05:16     51s] Type 'man IMPEXT-2773' for more detail.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2773):	The via resistance between layers M5 and M6 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[12/04 22:05:16     51s] Type 'man IMPEXT-2773' for more detail.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2773):	The via resistance between layers M6 and M7 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[12/04 22:05:16     51s] Type 'man IMPEXT-2773' for more detail.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2773):	The via resistance between layers M7 and M8 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[12/04 22:05:16     51s] Type 'man IMPEXT-2773' for more detail.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2773):	The via resistance between layers M8 and M9 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[12/04 22:05:16     51s] Type 'man IMPEXT-2773' for more detail.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2773):	The via resistance between layers M9 and M10 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[12/04 22:05:16     51s] Type 'man IMPEXT-2773' for more detail.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M1 is not defined in the cap table. Therefore, the LEF value 0.38 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M2 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M3 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M4 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M5 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M6 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M7 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M8 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M9 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[12/04 22:05:16     51s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M10 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[12/04 22:05:16     51s] Summary of Active RC-Corners : 
+[12/04 22:05:16     51s]  
+[12/04 22:05:16     51s]  Analysis View: Av
+[12/04 22:05:16     51s]     RC-Corner Name        : default_rc_corner
+[12/04 22:05:16     51s]     RC-Corner Index       : 0
+[12/04 22:05:16     51s]     RC-Corner Temperature : 25 Celsius
+[12/04 22:05:16     51s]     RC-Corner Cap Table   : ''
+[12/04 22:05:16     51s]     RC-Corner PreRoute Res Factor         : 1
+[12/04 22:05:16     51s]     RC-Corner PreRoute Cap Factor         : 1
+[12/04 22:05:16     51s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[12/04 22:05:16     51s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[12/04 22:05:16     51s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[12/04 22:05:16     51s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from Cap Table]
+[12/04 22:05:16     51s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from Cap Table]
+[12/04 22:05:16     51s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[12/04 22:05:16     51s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[12/04 22:05:16     51s] 
+[12/04 22:05:16     51s] *** Summary of all messages that are not suppressed in this session:
+[12/04 22:05:16     51s] Severity  ID               Count  Summary                                  
+[12/04 22:05:16     51s] WARNING   IMPLF-155            1  ViaRule only supports routing/cut layer,...
+[12/04 22:05:16     51s] WARNING   IMPEXT-2766         10  The sheet resistance for layer %s is not...
+[12/04 22:05:16     51s] WARNING   IMPEXT-2773         10  The via resistance between layers %s and...
+[12/04 22:05:16     51s] WARNING   IMPVL-159           62  Pin '%s' of cell '%s' is defined in LEF ...
+[12/04 22:05:16     51s] ERROR     IMPOAX-820           1  The OA features are disabled in the curr...
+[12/04 22:05:16     51s] ERROR     IMPOAX-850           1  %s command cannot be run as OA features ...
+[12/04 22:05:16     51s] *** Message Summary: 83 warning(s), 2 error(s)
+[12/04 22:05:16     51s] 
+[12/04 22:05:20     52s] <CMD> getIoFlowFlag
+[12/04 22:06:01     54s] <CMD> setIoFlowFlag 0
+[12/04 22:06:01     54s] <CMD> floorPlan -site CoreSite -s 959.05 958.36 5 5 5 5
+[12/04 22:06:02     55s] **WARN: (IMPFP-4026):	Adjusting core to 'Left' to 4.940000 due to track/row misalignment. To force the value, specify the -noSnapToGrid option or use fpiSetSnapRule command to specify the die/core to different grid.
+[12/04 22:06:02     55s] **WARN: (IMPFP-4026):	Adjusting core to 'Bottom' to 4.940000 due to track/row misalignment. To force the value, specify the -noSnapToGrid option or use fpiSetSnapRule command to specify the die/core to different grid.
+[12/04 22:06:02     55s] **WARN: (IMPFP-4026):	Adjusting core to 'Right' to 4.940000 due to track/row misalignment. To force the value, specify the -noSnapToGrid option or use fpiSetSnapRule command to specify the die/core to different grid.
+[12/04 22:06:02     55s] **WARN: (IMPFP-4026):	Adjusting core to 'Top' to 4.940000 due to track/row misalignment. To force the value, specify the -noSnapToGrid option or use fpiSetSnapRule command to specify the die/core to different grid.
+[12/04 22:06:03     55s] Horizontal Layer M1 offset = 190 (guessed)
+[12/04 22:06:03     55s] Vertical Layer M2 offset = 190 (guessed)
+[12/04 22:06:03     55s] Suggestion: specify LAYER OFFSET in LEF file
+[12/04 22:06:03     55s] Reason: hard to extract LAYER OFFSET from standard cells
+[12/04 22:06:03     55s] Generated pitch 1.68 in metal10 is different from 1.71 defined in technology file in preferred direction.
+[12/04 22:06:03     55s] Generated pitch 0.84 in metal8 is different from 0.855 defined in technology file in preferred direction.
+[12/04 22:06:03     55s] Generated pitch 0.95 in metal7 is different from 0.855 defined in technology file in preferred direction.
+[12/04 22:06:03     55s] Generated pitch 0.28 in metal6 is different from 0.285 defined in technology file in preferred direction.
+[12/04 22:06:03     55s] Generated pitch 0.28 in metal4 is different from 0.285 defined in technology file in preferred direction.
+[12/04 22:06:03     55s] <CMD> uiSetTool select
+[12/04 22:06:03     55s] <CMD> getIoFlowFlag
+[12/04 22:06:03     55s] <CMD> fit
+[12/04 22:06:08     56s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 22:06:08     56s] **WARN: (IMPTCM-125):	Option "-checkPinLayerForAccess" for command getPlaceMode is obsolete and will be ignored. It no longer has any effect and should be removed from your script.
+[12/04 22:06:10     56s] <CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+[12/04 22:06:10     56s] <CMD> setEndCapMode -reset
+[12/04 22:06:10     56s] <CMD> setEndCapMode -boundary_tap false
+[12/04 22:06:10     56s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 22:06:10     56s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 22:06:10     56s] **WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 22:06:10     56s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 22:06:10     56s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 22:06:10     56s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 22:06:10     56s] <CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {CLKBUF3 CLKBUF2 CLKBUF1 BUFX4 BUFX2 INVX8 INVX4 INVX2 INVX1} -maxAllowedDelay 1
+[12/04 22:06:10     56s] <CMD> setPlaceMode -reset
+[12/04 22:06:10     56s] <CMD> setPlaceMode -congEffort auto -timingDriven 1 -modulePlan 1 -clkGateAware 0 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 1 -placeIOPins 1 -moduleAwareSpare 0 -checkPinLayerForAccess {  1 } -preserveRouting 0 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+[12/04 22:06:10     56s] **WARN: (IMPTCM-125):	Option "-checkPinLayerForAccess" for command setPlaceMode is obsolete and will be ignored. It no longer has any effect and should be removed from your script.
+[12/04 22:06:12     56s] <CMD> setPlaceMode -fp false
+[12/04 22:06:12     56s] <CMD> placeDesign
+[12/04 22:06:17     60s] *** Starting placeDesign default flow ***
+[12/04 22:06:17     60s] *** Start deleteBufferTree ***
+[12/04 22:06:39     72s] Info: Detect buffers to remove automatically.
+[12/04 22:06:39     72s] Analyzing netlist ...
+[12/04 22:06:46     78s] Updating netlist
+[12/04 22:06:46     78s] AAE DB initialization (MEM=1342.54 CPU=0:00:00.3 REAL=0:00:00.0) 
+[12/04 22:06:46     78s] siFlow : Timing analysis mode is single, using late cdB files
+[12/04 22:06:46     78s] Start AAE Lib Loading. (MEM=1342.54)
+[12/04 22:06:46     78s] End AAE Lib Loading. (MEM=1533.29 CPU=0:00:00.0 Real=0:00:00.0)
+[12/04 22:06:49     80s] 
+[12/04 22:06:58     85s] *summary: 20422 instances (buffers/inverters) removed
+[12/04 22:06:58     85s] *** Finish deleteBufferTree (0:00:25.5) ***
+[12/04 22:06:58     85s] **INFO: Enable pre-place timing setting for timing analysis
+[12/04 22:06:58     85s] Set Using Default Delay Limit as 101.
+[12/04 22:06:58     85s] **WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+[12/04 22:06:58     85s] Set Default Net Delay as 0 ps.
+[12/04 22:06:58     85s] Set Default Net Load as 0 pF. 
+[12/04 22:06:59     86s] **INFO: Analyzing IO path groups for slack adjustment
+[12/04 22:07:08     92s] Effort level <high> specified for reg2reg_tmp.62222 path_group
+[12/04 22:07:09     92s] #################################################################################
+[12/04 22:07:09     92s] # Design Stage: PreRoute
+[12/04 22:07:09     92s] # Design Name: cmp
+[12/04 22:07:09     92s] # Design Mode: 90nm
+[12/04 22:07:09     92s] # Analysis Mode: MMMC Non-OCV 
+[12/04 22:07:09     92s] # Parasitics Mode: No SPEF/RCDB
+[12/04 22:07:09     92s] # Signoff Settings: SI Off 
+[12/04 22:07:09     92s] #################################################################################
+[12/04 22:07:10     93s] Calculate delays in Single mode...
+[12/04 22:07:12     94s] Topological Sorting (REAL = 0:00:02.0, MEM = 1533.3M, InitMEM = 1533.3M)
+[12/04 22:07:14     96s] End AAE Lib Interpolated Model. (MEM=1552.21 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[12/04 22:08:31    148s] Total number of fetched objects 203630
+[12/04 22:08:33    149s] End Timing Check Calculation. (CPU Time=0:00:00.9, Real Time=0:00:02.0)
+[12/04 22:08:33    149s] End delay calculation. (MEM=1447.3 CPU=0:00:52.0 REAL=0:01:18)
+[12/04 22:08:33    149s] *** CDM Built up (cpu=0:00:56.5  real=0:01:24  mem= 1447.3M) ***
+[12/04 22:08:48    159s] **INFO: Disable pre-place timing setting for timing analysis
+[12/04 22:08:51    160s] Set Using Default Delay Limit as 1000.
+[12/04 22:08:51    160s] Set Default Net Delay as 1000 ps.
+[12/04 22:08:51    160s] Set Default Net Load as 0.5 pF. 
+[12/04 22:08:51    160s] **INFO: Pre-place timing setting for timing analysis already disabled
+[12/04 22:08:51    160s] Deleted 0 physical inst  (cell - / prefix -).
+[12/04 22:08:51    160s] Extracting standard cell pins and blockage ...... 
+[12/04 22:08:51    160s] Pin and blockage extraction finished
+[12/04 22:08:51    160s] Extracting macro/IO cell pins and blockage ...... 
+[12/04 22:08:51    160s] Pin and blockage extraction finished
+[12/04 22:08:51    160s] *** Starting "NanoPlace(TM) placement v#3 (mem=1430.4M)" ...
+[12/04 22:08:51    160s] *** Build Buffered Sizing Timing Model
+[12/04 22:08:51    160s] (cpu=0:00:00.0 mem=1430.4M) ***
+[12/04 22:08:51    160s] *** Build Virtual Sizing Timing Model
+[12/04 22:08:51    160s] (cpu=0:00:00.0 mem=1430.4M) ***
+[12/04 22:08:51    160s] Options: timingDriven ignoreScan ignoreSpare pinGuide congEffort=auto gpeffort=medium 
+[12/04 22:08:51    160s] **WARN: (IMPSP-9042):	Scan chains were not defined, -place_global_ignore_scan option will be ignored.
+[12/04 22:08:51    160s] Define the scan chains before using this option.
+[12/04 22:08:51    160s] Type 'man IMPSP-9042' for more detail.
+[12/04 22:08:52    161s] #std cell=193404 (0 fixed + 193404 movable) #block=0 (0 floating + 0 preplaced)
+[12/04 22:08:52    161s] #ioInst=0 #net=203166 #term=650990 #term/net=3.20, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=1370
+[12/04 22:08:52    161s] stdCell: 193404 single + 0 double + 0 multi
+[12/04 22:08:52    161s] Total standard cell length = 246.5864 (mm), area = 0.6091 (mm^2)
+[12/04 22:08:52    161s] Core basic site is CoreSite
+[12/04 22:08:52    161s] **Info: (IMPSP-307): Design contains fractional 20 cells.
+[12/04 22:08:52    161s] Estimated cell power/ground rail width = 0.308 um
+[12/04 22:08:52    161s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[12/04 22:08:53    161s] Apply auto density screen in pre-place stage.
+[12/04 22:08:54    162s] Auto density screen increases utilization from 0.663 to 0.663
+[12/04 22:08:54    162s] Auto density screen runtime: cpu = 0:00:00.6 real = 0:00:01.0 mem = 1430.4M
+[12/04 22:08:55    162s] Average module density = 0.663.
+[12/04 22:08:55    162s] Density for the design = 0.663.
+[12/04 22:08:55    162s]        = stdcell_area 648912 sites (609068 um^2) / alloc_area 979312 sites (919182 um^2).
+[12/04 22:08:55    162s] Pin Density = 0.6647.
+[12/04 22:08:55    162s]             = total # of pins 650990 / total area 979312.
+[12/04 22:08:56    163s] Initial padding reaches pin density 1.000 for top
+[12/04 22:08:56    163s] Initial padding increases density from 0.663 to 0.806 for top
+[12/04 22:08:57    163s] === lastAutoLevel = 10 
+[12/04 22:08:57    163s] === macro end level: 6 ===
+[12/04 22:08:57    163s] Effort level <high> specified for reg2reg path_group
+[12/04 22:09:17    176s] Iteration  1: Total net bbox = 7.998e-07 (9.67e-08 7.03e-07)
+[12/04 22:09:17    176s]               Est.  stn bbox = 8.326e-07 (9.98e-08 7.33e-07)
+[12/04 22:09:17    176s]               cpu = 0:00:01.1 real = 0:00:01.0 mem = 1493.5M
+[12/04 22:09:18    176s] Iteration  2: Total net bbox = 7.998e-07 (9.67e-08 7.03e-07)
+[12/04 22:09:18    176s]               Est.  stn bbox = 8.326e-07 (9.98e-08 7.33e-07)
+[12/04 22:09:18    176s]               cpu = 0:00:00.3 real = 0:00:01.0 mem = 1496.4M
+[12/04 22:09:19    177s] exp_mt_sequential is set from setPlaceMode option to 1
+[12/04 22:09:19    177s] Setting dotProdMode from setPlaceMode option to Multi-thread sequential mode (nrThread=1)
+[12/04 22:09:19    177s] place_exp_mt_interval set to default 32
+[12/04 22:09:19    177s] place_exp_mt_interval_bias (first half) set to default 0.750000
+[12/04 22:10:34    223s] Iteration  3: Total net bbox = 1.400e+04 (6.96e+03 7.04e+03)
+[12/04 22:10:34    223s]               Est.  stn bbox = 2.117e+04 (1.05e+04 1.07e+04)
+[12/04 22:10:34    223s]               cpu = 0:00:46.3 real = 0:01:16 mem = 1554.8M
+[12/04 22:10:34    223s] Total number of setup views is 1.
+[12/04 22:10:34    223s] Total number of active setup views is 1.
+[12/04 22:10:34    223s] Active setup views:
+[12/04 22:10:34    223s]     Av
+[12/04 22:14:41    364s] Iteration  4: Total net bbox = 1.307e+06 (5.45e+05 7.61e+05)
+[12/04 22:14:41    364s]               Est.  stn bbox = 1.802e+06 (7.44e+05 1.06e+06)
+[12/04 22:14:41    364s]               cpu = 0:02:22 real = 0:04:07 mem = 1554.8M
+[12/04 22:18:14    490s] Iteration  5: Total net bbox = 2.360e+06 (1.18e+06 1.18e+06)
+[12/04 22:18:14    490s]               Est.  stn bbox = 3.285e+06 (1.62e+06 1.66e+06)
+[12/04 22:18:14    490s]               cpu = 0:02:05 real = 0:03:33 mem = 1537.1M
+[12/04 22:22:47    659s] Iteration  6: Total net bbox = 2.582e+06 (1.22e+06 1.36e+06)
+[12/04 22:22:47    659s]               Est.  stn bbox = 3.652e+06 (1.74e+06 1.92e+06)
+[12/04 22:22:47    659s]               cpu = 0:02:46 real = 0:04:27 mem = 1624.5M
+[12/04 22:22:49    660s] Iteration  7: Total net bbox = 2.997e+06 (1.51e+06 1.49e+06)
+[12/04 22:22:49    660s]               Est.  stn bbox = 4.093e+06 (2.05e+06 2.05e+06)
+[12/04 22:22:49    660s]               cpu = 0:00:00.4 real = 0:00:01.0 mem = 1608.5M
+[12/04 22:24:02    704s] nrCritNet: 0.00% ( 0 / 203166 ) cutoffSlk: 214748364.7ps stdDelay: 23.1ps
+[12/04 22:25:28    756s] nrCritNet: 0.00% ( 0 / 203166 ) cutoffSlk: 214748364.7ps stdDelay: 23.1ps
+[12/04 22:25:29    757s] Iteration  8: Total net bbox = 2.997e+06 (1.51e+06 1.49e+06)
+[12/04 22:25:29    757s]               Est.  stn bbox = 4.093e+06 (2.05e+06 2.05e+06)
+[12/04 22:25:29    757s]               cpu = 0:01:37 real = 0:02:40 mem = 1625.4M
+[12/04 22:29:50    930s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[12/04 22:29:50    930s] enableMT= 3
+[12/04 22:29:50    930s] useHNameCompare= 3 (lazy mode)
+[12/04 22:29:50    930s] doMTMainInit= 1
+[12/04 22:29:50    930s] doMTFlushLazyWireDelete= 1
+[12/04 22:29:50    930s] useFastLRoute= 0
+[12/04 22:29:50    930s] useFastCRoute= 1
+[12/04 22:29:50    930s] doMTNetInitAdjWires= 1
+[12/04 22:29:50    930s] wireMPoolNoThreadCheck= 1
+[12/04 22:29:50    930s] allMPoolNoThreadCheck= 1
+[12/04 22:29:50    930s] doNotUseMPoolInCRoute= 1
+[12/04 22:29:50    930s] doMTSprFixZeroViaCodes= 1
+[12/04 22:29:50    930s] doMTDtrRoute1CleanupA= 1
+[12/04 22:29:50    930s] doMTDtrRoute1CleanupB= 1
+[12/04 22:29:50    930s] doMTWireLenCalc= 0
+[12/04 22:29:50    930s] doSkipQALenRecalc= 1
+[12/04 22:29:50    930s] doMTMainCleanup= 1
+[12/04 22:29:50    930s] doMTMoveCellTermsToMSLayer= 1
+[12/04 22:29:50    930s] doMTConvertWiresToNewViaCode= 1
+[12/04 22:29:50    930s] doMTRemoveAntenna= 1
+[12/04 22:29:50    930s] doMTCheckConnectivity= 1
+[12/04 22:29:50    930s] enableRuntimeLog= 0
+[12/04 22:29:53    932s] Congestion driven padding in post-place stage.
+[12/04 22:29:55    933s] Congestion driven padding increases utilization from 0.806 to 0.807
+[12/04 22:29:55    933s] Congestion driven padding runtime: cpu = 0:00:01.1 real = 0:00:02.0 mem = 1657.9M
+[12/04 22:30:00    937s] Global placement CDP skipped at cutLevel 9.
+[12/04 22:30:01    937s] Iteration  9: Total net bbox = 3.025e+06 (1.51e+06 1.51e+06)
+[12/04 22:30:01    937s]               Est.  stn bbox = 4.178e+06 (2.07e+06 2.11e+06)
+[12/04 22:30:01    937s]               cpu = 0:03:01 real = 0:04:32 mem = 1657.9M
+[12/04 22:31:20    988s] nrCritNet: 0.00% ( 0 / 203166 ) cutoffSlk: 214748364.7ps stdDelay: 23.1ps
+[12/04 22:32:40   1040s] nrCritNet: 0.00% ( 0 / 203166 ) cutoffSlk: 214748364.7ps stdDelay: 23.1ps
+[12/04 22:32:40   1040s] Iteration 10: Total net bbox = 3.025e+06 (1.51e+06 1.51e+06)
+[12/04 22:32:40   1040s]               Est.  stn bbox = 4.178e+06 (2.07e+06 2.11e+06)
+[12/04 22:32:40   1040s]               cpu = 0:01:43 real = 0:02:39 mem = 1657.9M
+[12/04 22:37:13   1222s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[12/04 22:37:16   1224s] Congestion driven padding in post-place stage.
+[12/04 22:37:18   1225s] Congestion driven padding increases utilization from 0.807 to 0.807
+[12/04 22:37:18   1225s] Congestion driven padding runtime: cpu = 0:00:01.2 real = 0:00:02.0 mem = 1666.7M
+[12/04 22:37:23   1229s] Global placement CDP skipped at cutLevel 11.
+[12/04 22:37:24   1229s] Iteration 11: Total net bbox = 3.063e+06 (1.51e+06 1.55e+06)
+[12/04 22:37:24   1229s]               Est.  stn bbox = 4.239e+06 (2.08e+06 2.16e+06)
+[12/04 22:37:24   1229s]               cpu = 0:03:09 real = 0:04:44 mem = 1666.7M
+[12/04 22:38:40   1279s] nrCritNet: 0.00% ( 0 / 203166 ) cutoffSlk: 214748364.7ps stdDelay: 23.1ps
+[12/04 22:39:52   1328s] nrCritNet: 0.00% ( 0 / 203166 ) cutoffSlk: 214748364.7ps stdDelay: 23.1ps
+[12/04 22:39:52   1328s] Iteration 12: Total net bbox = 3.063e+06 (1.51e+06 1.55e+06)
+[12/04 22:39:52   1328s]               Est.  stn bbox = 4.239e+06 (2.08e+06 2.16e+06)
+[12/04 22:39:52   1328s]               cpu = 0:01:39 real = 0:02:28 mem = 1666.7M
+[12/04 22:44:16   1505s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[12/04 22:44:20   1508s] Congestion driven padding in post-place stage.
+[12/04 22:44:23   1509s] Congestion driven padding increases utilization from 0.807 to 0.808
+[12/04 22:44:23   1509s] Congestion driven padding runtime: cpu = 0:00:01.3 real = 0:00:03.0 mem = 1666.7M
+[12/04 22:44:29   1513s] Global placement CDP skipped at cutLevel 13.
+[12/04 22:44:30   1514s] Iteration 13: Total net bbox = 2.984e+06 (1.47e+06 1.51e+06)
+[12/04 22:44:30   1514s]               Est.  stn bbox = 4.157e+06 (2.04e+06 2.12e+06)
+[12/04 22:44:30   1514s]               cpu = 0:03:06 real = 0:04:38 mem = 1666.7M
+[12/04 22:44:31   1514s] Iteration 14: Total net bbox = 2.984e+06 (1.47e+06 1.51e+06)
+[12/04 22:44:31   1514s]               Est.  stn bbox = 4.157e+06 (2.04e+06 2.12e+06)
+[12/04 22:44:31   1514s]               cpu = 0:00:00.5 real = 0:00:01.0 mem = 1666.7M
+[12/04 22:47:48   1648s] Iteration 15: Total net bbox = 3.040e+06 (1.51e+06 1.53e+06)
+[12/04 22:47:48   1648s]               Est.  stn bbox = 4.191e+06 (2.06e+06 2.13e+06)
+[12/04 22:47:48   1648s]               cpu = 0:02:14 real = 0:03:17 mem = 1702.4M
+[12/04 22:47:49   1649s] Iteration 16: Total net bbox = 3.040e+06 (1.51e+06 1.53e+06)
+[12/04 22:47:49   1649s]               Est.  stn bbox = 4.191e+06 (2.06e+06 2.13e+06)
+[12/04 22:47:49   1649s]               cpu = 0:00:00.6 real = 0:00:01.0 mem = 1702.4M
+[12/04 22:47:50   1649s] Iteration 17: Total net bbox = 3.040e+06 (1.51e+06 1.53e+06)
+[12/04 22:47:50   1649s]               Est.  stn bbox = 4.191e+06 (2.06e+06 2.13e+06)
+[12/04 22:47:50   1649s]               cpu = 0:00:00.6 real = 0:00:01.0 mem = 1702.4M
+[12/04 22:47:50   1649s] *** cost = 3.040e+06 (1.51e+06 1.53e+06) (cpu for global=0:24:46) real=0:38:53***
+[12/04 22:47:56   1653s] Solver runtime cpu: 0:18:27 real: 0:28:58
+[12/04 22:47:56   1653s] Core Placement runtime cpu: 0:19:17 real: 0:30:16
+[12/04 22:47:56   1653s] **WARN: (IMPSP-9025):	No scan chain specified/traced.
+[12/04 22:47:56   1653s] Type 'man IMPSP-9025' for more detail.
+[12/04 22:47:56   1653s] #spOpts: mergeVia=F 
+[12/04 22:47:57   1653s] Core basic site is CoreSite
+[12/04 22:47:57   1653s] **Info: (IMPSP-307): Design contains fractional 20 cells.
+[12/04 22:47:57   1653s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[12/04 22:47:58   1653s] *** Starting refinePlace (0:27:34 mem=1421.8M) ***
+[12/04 22:47:58   1653s] Total net bbox length = 3.040e+06 (1.506e+06 1.533e+06) (ext = 1.866e+05)
+[12/04 22:47:58   1654s] Move report: placeLevelShifters moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[12/04 22:47:58   1654s] Starting refinePlace ...
+[12/04 22:47:58   1654s] [CPU] RefinePlace/Pre-processing (cpu=0:00:00.1, real=0:00:00.0, mem=1421.8MB) @(0:27:34 - 0:27:34).
+[12/04 22:47:59   1654s] default core: bins with density >  0.75 = 37.4 % ( 569 / 1521 )
+[12/04 22:47:59   1654s] Density distribution unevenness ratio = 9.233%
+[12/04 22:48:15   1664s]   Spread Effort: high, standalone mode, useDDP on.
+[12/04 22:48:15   1664s] [CPU] RefinePlace/preRPlace (cpu=0:00:09.7, real=0:00:17.0, mem=1464.6MB) @(0:27:34 - 0:27:44).
+[12/04 22:48:15   1664s] Move report: preRPlace moves 193404 insts, mean move: 0.80 um, max move: 4.16 um
+[12/04 22:48:15   1664s] 	Max move on inst (proc_3/ALU/mult_873/U562): (771.47, 785.95) --> (770.26, 782.99)
+[12/04 22:48:15   1664s] 	Length: 10 sites, height: 1 rows, site name: CoreSite, cell type: FAX1
+[12/04 22:48:16   1664s] wireLenOptFixPriorityInst 0 inst fixed
+[12/04 22:48:16   1664s] Placement tweakage begins.
+[12/04 22:48:19   1666s] wire length = 4.014e+06
+[12/04 22:50:41   1754s] wire length = 3.993e+06
+[12/04 22:50:41   1754s] Placement tweakage ends.
+[12/04 22:50:42   1754s] Move report: tweak moves 61224 insts, mean move: 2.44 um, max move: 50.16 um
+[12/04 22:50:42   1754s] 	Max move on inst (proc_2/ALU/U4035): (348.08, 886.73) --> (337.44, 847.21)
+[12/04 22:50:42   1754s] [CPU] RefinePlace/TweakPlacement (cpu=0:01:30, real=0:02:26, mem=1571.7MB) @(0:27:44 - 0:29:15).
+[12/04 22:50:48   1758s] Move report: legalization moves 19748 insts, mean move: 0.45 um, max move: 6.46 um
+[12/04 22:50:48   1758s] 	Max move on inst (proc_3/ALU/U6728): (625.86, 866.97) --> (627.38, 871.91)
+[12/04 22:50:48   1758s] [CPU] RefinePlace/Legalization (cpu=0:00:04.1, real=0:00:06.0, mem=1571.7MB) @(0:29:15 - 0:29:19).
+[12/04 22:50:48   1758s] Move report: Detail placement moves 193404 insts, mean move: 1.43 um, max move: 49.57 um
+[12/04 22:50:48   1758s] 	Max move on inst (proc_0/reg_file/FE_DBTC401_n8477): (85.99, 450.20) --> (95.38, 410.02)
+[12/04 22:50:48   1758s] 	Runtime: CPU: 0:01:45 REAL: 0:02:50 MEM: 1571.7MB
+[12/04 22:50:48   1758s] Statistics of distance of Instance movement in refine placement:
+[12/04 22:50:48   1758s]   maximum (X+Y) =        49.57 um
+[12/04 22:50:48   1758s]   inst (proc_0/reg_file/FE_DBTC401_n8477) with max move: (85.993, 450.202) -> (95.38, 410.02)
+[12/04 22:50:48   1758s]   mean    (X+Y) =         1.43 um
+[12/04 22:50:48   1758s] Summary Report:
+[12/04 22:50:48   1758s] Instances move: 193404 (out of 193404 movable)
+[12/04 22:50:48   1758s] Instances flipped: 0
+[12/04 22:50:48   1758s] Mean displacement: 1.43 um
+[12/04 22:50:48   1758s] Max displacement: 49.57 um (Instance: proc_0/reg_file/FE_DBTC401_n8477) (85.993, 450.202) -> (95.38, 410.02)
+[12/04 22:50:48   1758s] 	Length: 2 sites, height: 1 rows, site name: CoreSite, cell type: INVX1
+[12/04 22:50:48   1758s] Total instances moved : 193404
+[12/04 22:50:49   1759s] Total net bbox length = 3.065e+06 (1.501e+06 1.563e+06) (ext = 1.866e+05)
+[12/04 22:50:49   1759s] Runtime: CPU: 0:01:45 REAL: 0:02:50 MEM: 1571.7MB
+[12/04 22:50:49   1759s] [CPU] RefinePlace/total (cpu=0:01:45, real=0:02:50, mem=1571.7MB) @(0:27:34 - 0:29:19).
+[12/04 22:50:49   1759s] *** Finished refinePlace (0:29:19 mem=1571.7M) ***
+[12/04 22:50:49   1759s] *** End of Placement (cpu=0:26:39, real=0:41:58, mem=1571.7M) ***
+[12/04 22:50:49   1759s] #spOpts: mergeVia=F 
+[12/04 22:50:50   1760s] Core basic site is CoreSite
+[12/04 22:50:50   1760s] **Info: (IMPSP-307): Design contains fractional 20 cells.
+[12/04 22:50:50   1760s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[12/04 22:50:50   1760s] default core: bins with density >  0.75 = 37.1 % ( 564 / 1521 )
+[12/04 22:50:50   1760s] Density distribution unevenness ratio = 9.233%
+[12/04 22:50:51   1760s] *** Free Virtual Timing Model ...(mem=1571.7M)
+[12/04 22:50:51   1760s] Starting IO pin assignment...
+[12/04 22:50:51   1760s] The design is not routed. Using flight-line based method for pin assignment.
+[12/04 22:50:51   1761s] Completed IO pin assignment.
+[12/04 22:50:52   1762s] Starting congestion repair ...
+[12/04 22:50:52   1762s] congRepair options: -clkGateAware 0 -rplaceIncrNPClkGateAwareMode 4.
+[12/04 22:50:53   1762s] Starting Early Global Route congestion estimation: mem = 1571.7M
+[12/04 22:50:53   1762s] (I)       Reading DB...
+[12/04 22:50:56   1764s] (I)       congestionReportName   : 
+[12/04 22:50:56   1764s] (I)       layerRangeFor2DCongestion : 
+[12/04 22:50:56   1764s] (I)       buildTerm2TermWires    : 1
+[12/04 22:50:56   1764s] (I)       doTrackAssignment      : 1
+[12/04 22:50:56   1764s] (I)       dumpBookshelfFiles     : 0
+[12/04 22:50:56   1764s] (I)       numThreads             : 1
+[12/04 22:50:56   1764s] (I)       bufferingAwareRouting  : false
+[12/04 22:50:56   1764s] [NR-eGR] honorMsvRouteConstraint: false
+[12/04 22:50:56   1764s] (I)       honorPin               : false
+[12/04 22:50:56   1764s] (I)       honorPinGuide          : true
+[12/04 22:50:56   1764s] (I)       honorPartition         : false
+[12/04 22:50:56   1764s] (I)       allowPartitionCrossover: false
+[12/04 22:50:56   1764s] (I)       honorSingleEntry       : true
+[12/04 22:50:56   1764s] (I)       honorSingleEntryStrong : true
+[12/04 22:50:56   1764s] (I)       handleViaSpacingRule   : false
+[12/04 22:50:56   1764s] (I)       handleEolSpacingRule   : false
+[12/04 22:50:56   1764s] (I)       PDConstraint           : none
+[12/04 22:50:56   1764s] (I)       expBetterNDRHandling   : false
+[12/04 22:50:56   1764s] [NR-eGR] honorClockSpecNDR      : 0
+[12/04 22:50:56   1764s] (I)       routingEffortLevel     : 3
+[12/04 22:50:56   1764s] (I)       effortLevel            : standard
+[12/04 22:50:56   1764s] [NR-eGR] minRouteLayer          : 2
+[12/04 22:50:56   1764s] [NR-eGR] maxRouteLayer          : 127
+[12/04 22:50:56   1764s] (I)       relaxedTopLayerCeiling : 127
+[12/04 22:50:56   1764s] (I)       relaxedBottomLayerFloor: 2
+[12/04 22:50:56   1764s] (I)       numRowsPerGCell        : 1
+[12/04 22:50:56   1764s] (I)       speedUpLargeDesign     : 0
+[12/04 22:50:56   1764s] (I)       multiThreadingTA       : 1
+[12/04 22:50:56   1764s] (I)       blkAwareLayerSwitching : 1
+[12/04 22:50:56   1764s] (I)       optimizationMode       : false
+[12/04 22:50:56   1764s] (I)       routeSecondPG          : false
+[12/04 22:50:56   1764s] (I)       scenicRatioForLayerRelax: 0.00
+[12/04 22:50:56   1764s] (I)       detourLimitForLayerRelax: 0.00
+[12/04 22:50:56   1764s] (I)       punchThroughDistance   : 500.00
+[12/04 22:50:56   1764s] (I)       scenicBound            : 1.15
+[12/04 22:50:56   1764s] (I)       maxScenicToAvoidBlk    : 100.00
+[12/04 22:50:56   1764s] (I)       source-to-sink ratio   : 0.00
+[12/04 22:50:56   1764s] (I)       targetCongestionRatioH : 1.00
+[12/04 22:50:56   1764s] (I)       targetCongestionRatioV : 1.00
+[12/04 22:50:56   1764s] (I)       layerCongestionRatio   : 0.70
+[12/04 22:50:56   1764s] (I)       m1CongestionRatio      : 0.10
+[12/04 22:50:56   1764s] (I)       m2m3CongestionRatio    : 0.70
+[12/04 22:50:56   1764s] (I)       localRouteEffort       : 1.00
+[12/04 22:50:56   1764s] (I)       numSitesBlockedByOneVia: 8.00
+[12/04 22:50:56   1764s] (I)       supplyScaleFactorH     : 1.00
+[12/04 22:50:56   1764s] (I)       supplyScaleFactorV     : 1.00
+[12/04 22:50:56   1764s] (I)       highlight3DOverflowFactor: 0.00
+[12/04 22:50:56   1764s] (I)       doubleCutViaModelingRatio: 0.00
+[12/04 22:50:56   1764s] (I)       routeVias              : 
+[12/04 22:50:56   1764s] (I)       readTROption           : true
+[12/04 22:50:56   1764s] (I)       extraSpacingFactor     : 1.00
+[12/04 22:50:56   1764s] [NR-eGR] numTracksPerClockWire  : 0
+[12/04 22:50:56   1764s] (I)       routeSelectedNetsOnly  : false
+[12/04 22:50:56   1764s] (I)       clkNetUseMaxDemand     : false
+[12/04 22:50:56   1764s] (I)       extraDemandForClocks   : 0
+[12/04 22:50:56   1764s] (I)       steinerRemoveLayers    : false
+[12/04 22:50:56   1764s] (I)       demoteLayerScenicScale : 1.00
+[12/04 22:50:56   1764s] (I)       nonpreferLayerCostScale : 1.00
+[12/04 22:50:56   1764s] (I)       spanningTreeRefinement : false
+[12/04 22:50:56   1764s] (I)       spanningTreeRefinementAlpha : -1.00
+[12/04 22:50:56   1764s] (I)       before initializing RouteDB syMemory usage = 1705.7 MB
+[12/04 22:50:56   1764s] (I)       starting read tracks
+[12/04 22:50:56   1764s] (I)       build grid graph
+[12/04 22:50:56   1764s] (I)       build grid graph start
+[12/04 22:50:56   1764s] [NR-eGR] Layer1 has no routable track
+[12/04 22:50:56   1764s] [NR-eGR] Layer2 has single uniform track structure
+[12/04 22:50:56   1764s] [NR-eGR] Layer3 has single uniform track structure
+[12/04 22:50:56   1764s] [NR-eGR] Layer4 has single uniform track structure
+[12/04 22:50:56   1764s] [NR-eGR] Layer5 has single uniform track structure
+[12/04 22:50:56   1764s] [NR-eGR] Layer6 has single uniform track structure
+[12/04 22:50:56   1764s] [NR-eGR] Layer7 has single uniform track structure
+[12/04 22:50:56   1764s] [NR-eGR] Layer8 has single uniform track structure
+[12/04 22:50:56   1764s] [NR-eGR] Layer9 has single uniform track structure
+[12/04 22:50:56   1764s] [NR-eGR] Layer10 has single uniform track structure
+[12/04 22:50:56   1764s] (I)       build grid graph end
+[12/04 22:50:56   1764s] (I)       numViaLayers=9
+[12/04 22:50:56   1764s] (I)       Reading via M2_M1_viaB for layer: 0 
+[12/04 22:50:56   1764s] (I)       Reading via M3_M2_viaB for layer: 1 
+[12/04 22:50:56   1764s] (I)       Reading via M4_M3_viaB for layer: 2 
+[12/04 22:50:56   1764s] (I)       Reading via M5_M4_via for layer: 3 
+[12/04 22:50:56   1764s] (I)       Reading via M6_M5_via for layer: 4 
+[12/04 22:50:56   1764s] (I)       Reading via M7_M6_via for layer: 5 
+[12/04 22:50:56   1764s] (I)       Reading via M8_M7_via for layer: 6 
+[12/04 22:50:56   1764s] (I)       Reading via M9_M8_via for layer: 7 
+[12/04 22:50:56   1764s] (I)       Reading via M10_M9_via for layer: 8 
+[12/04 22:50:56   1764s] (I)       end build via table
+[12/04 22:50:56   1764s] [NR-eGR] numRoutingBlks=0 numInstBlks=36021 numPGBlocks=0 numBumpBlks=0 numBoundaryFakeBlks=0
+[12/04 22:50:56   1764s] [NR-eGR] numPreroutedNet = 0  numPreroutedWires = 0
+[12/04 22:50:56   1764s] (I)       readDataFromPlaceDB
+[12/04 22:50:56   1764s] (I)       Read net information..
+[12/04 22:50:56   1764s] [NR-eGR] Read numTotalNets=203166  numIgnoredNets=0
+[12/04 22:50:56   1764s] (I)       Read testcase time = 0.100 seconds
+[12/04 22:50:56   1764s] 
+[12/04 22:50:56   1764s] (I)       Reading via M2_M1_via for layer: 0 
+[12/04 22:50:56   1764s] (I)       Reading via M3_M2_via for layer: 1 
+[12/04 22:50:56   1764s] (I)       Reading via M4_M3_via for layer: 2 
+[12/04 22:50:56   1764s] (I)       Reading via M5_M4_via for layer: 3 
+[12/04 22:50:56   1764s] (I)       Reading via M6_M5_via for layer: 4 
+[12/04 22:50:56   1764s] (I)       Reading via M7_M6_via for layer: 5 
+[12/04 22:50:56   1764s] (I)       Reading via M8_M7_via for layer: 6 
+[12/04 22:50:56   1764s] (I)       Reading via M9_M8_via for layer: 7 
+[12/04 22:50:56   1764s] (I)       Reading via M10_M9_via for layer: 8 
+[12/04 22:50:56   1764s] (I)       build grid graph start
+[12/04 22:50:56   1764s] (I)       build grid graph end
+[12/04 22:50:56   1764s] (I)       Model blockage into capacity
+[12/04 22:50:56   1764s] (I)       Read numBlocks=103428  numPreroutedWires=0  numCapScreens=0
+[12/04 22:50:56   1764s] (I)       blocked area on Layer1 : 0  (0.00%)
+[12/04 22:50:56   1764s] (I)       blocked area on Layer2 : 417489923400  (11.12%)
+[12/04 22:50:56   1764s] (I)       blocked area on Layer3 : 0  (0.00%)
+[12/04 22:50:56   1764s] (I)       blocked area on Layer4 : 0  (0.00%)
+[12/04 22:50:56   1764s] (I)       blocked area on Layer5 : 0  (0.00%)
+[12/04 22:50:56   1764s] (I)       blocked area on Layer6 : 0  (0.00%)
+[12/04 22:50:56   1764s] (I)       blocked area on Layer7 : 0  (0.00%)
+[12/04 22:50:56   1764s] (I)       blocked area on Layer8 : 0  (0.00%)
+[12/04 22:50:56   1764s] (I)       blocked area on Layer9 : 0  (0.00%)
+[12/04 22:50:56   1764s] (I)       blocked area on Layer10 : 0  (0.00%)
+[12/04 22:50:56   1764s] (I)       Modeling time = 0.080 seconds
+[12/04 22:50:56   1764s] 
+[12/04 22:50:56   1764s] (I)       Number of ignored nets = 0
+[12/04 22:50:56   1764s] (I)       Number of fixed nets = 0.  Ignored: Yes
+[12/04 22:50:56   1764s] (I)       Number of clock nets = 1.  Ignored: No
+[12/04 22:50:56   1764s] (I)       Number of analog nets = 0.  Ignored: Yes
+[12/04 22:50:56   1764s] (I)       Number of special nets = 0.  Ignored: Yes
+[12/04 22:50:56   1764s] (I)       Number of mixed signal nets = 0.  Ignored: Yes
+[12/04 22:50:56   1764s] (I)       Number of skip routing nets = 0.  Ignored: Yes
+[12/04 22:50:56   1764s] (I)       Number of nets with ignore route flag = 0.  Ignored: No
+[12/04 22:50:56   1764s] (I)       Number of nets with one or no pins = 0.  Ignored: Yes
+[12/04 22:50:56   1764s] (I)       Number of two pin nets which has pins at the same location = 0.  Ignored: Yes
+[12/04 22:50:56   1764s] [NR-eGR] There are 1 clock nets ( 0 with NDR ).
+[12/04 22:50:56   1764s] (I)       Before initializing earlyGlobalRoute syMemory usage = 1705.7 MB
+[12/04 22:50:56   1764s] (I)       Ndr track 0 does not exist
+[12/04 22:50:56   1764s] (I)       Layer1  viaCost=200.00
+[12/04 22:50:56   1764s] (I)       Layer2  viaCost=200.00
+[12/04 22:50:56   1764s] (I)       Layer3  viaCost=200.00
+[12/04 22:50:56   1764s] (I)       Layer4  viaCost=100.00
+[12/04 22:50:56   1764s] (I)       Layer5  viaCost=100.00
+[12/04 22:50:56   1764s] (I)       Layer6  viaCost=100.00
+[12/04 22:50:56   1764s] (I)       Layer7  viaCost=100.00
+[12/04 22:50:56   1764s] (I)       Layer8  viaCost=100.00
+[12/04 22:50:56   1764s] (I)       Layer9  viaCost=100.00
+[12/04 22:50:56   1764s] (I)       ---------------------Grid Graph Info--------------------
+[12/04 22:50:56   1764s] (I)       routing area        :  (0, 0) - (1938000, 1936480)
+[12/04 22:50:56   1764s] (I)       core area           :  (9880, 9880) - (1928120, 1926600)
+[12/04 22:50:56   1764s] (I)       Site Width          :   760  (dbu)
+[12/04 22:50:56   1764s] (I)       Row Height          :  4940  (dbu)
+[12/04 22:50:56   1764s] (I)       GCell Width         :  4940  (dbu)
+[12/04 22:50:56   1764s] (I)       GCell Height        :  4940  (dbu)
+[12/04 22:50:56   1764s] (I)       grid                :   393   392    10
+[12/04 22:50:56   1764s] (I)       vertical capacity   :     0  4940     0  4940     0  4940     0  4940     0  4940
+[12/04 22:50:56   1764s] (I)       horizontal capacity :     0     0  4940     0  4940     0  4940     0  4940     0
+[12/04 22:50:56   1764s] (I)       Default wire width  :   130   140   140   280   280   280   800   800  1600  1600
+[12/04 22:50:56   1764s] (I)       Default wire space  :   130   150   140   280   280   280   800   800  1600  1600
+[12/04 22:50:56   1764s] (I)       Default pitch size  :   260   380   380   560   570   560  1900  1680  3420  3360
+[12/04 22:50:56   1764s] (I)       First Track Coord   :     0   190   190   750   760   750  2090  1870  3610  3550
+[12/04 22:50:56   1764s] (I)       Num tracks per GCell:  0.00 13.00 13.00  8.82  8.67  8.82  2.60  2.94  1.44  1.47
+[12/04 22:50:56   1764s] (I)       Total num of tracks :     0  5100  5096  3460  3396  3460  1018  1153   565   576
+[12/04 22:50:56   1764s] (I)       Num of masks        :     1     1     1     1     1     1     1     1     1     1
+[12/04 22:50:56   1764s] (I)       Num of trim masks   :     0     0     0     0     0     0     0     0     0     0
+[12/04 22:50:56   1764s] (I)       --------------------------------------------------------
+[12/04 22:50:56   1764s] 
+[12/04 22:50:56   1764s] [NR-eGR] ============ Routing rule table ============
+[12/04 22:50:56   1764s] [NR-eGR] Rule id 0. Nets 203166 
+[12/04 22:50:56   1764s] [NR-eGR] id=0  ndrTrackId=0  ndrViaId=-1  extraSpace=0  numShields=0  maxHorDemand=1  maxVerDemand=1
+[12/04 22:50:56   1764s] [NR-eGR] Pitch:  L1=260  L2=380  L3=380  L4=560  L5=570  L6=560  L7=1900  L8=1680  L9=3420  L10=3360
+[12/04 22:50:56   1764s] [NR-eGR] ========================================
+[12/04 22:50:56   1764s] [NR-eGR] 
+[12/04 22:50:56   1764s] (I)       After initializing earlyGlobalRoute syMemory usage = 1705.7 MB
+[12/04 22:50:56   1764s] (I)       Loading and dumping file time : 2.27 seconds
+[12/04 22:50:56   1764s] (I)       ============= Initialization =============
+[12/04 22:50:56   1764s] (I)       totalPins=650990  totalGlobalPin=587332 (90.22%)
+[12/04 22:50:57   1765s] (I)       total 2D Cap : 9175508 = (3959475 H, 5216033 V)
+[12/04 22:50:57   1765s] [NR-eGR] Layer group 1: route 203166 net(s) in layer range [2, 10]
+[12/04 22:50:57   1765s] (I)       ============  Phase 1a Route ============
+[12/04 22:50:58   1765s] (I)       Phase 1a runs 0.83 seconds
+[12/04 22:50:58   1766s] (I)       blkAvoiding Routing :  time=0.19  numBlkSegs=0
+[12/04 22:50:58   1766s] (I)       Usage: 1566775 = (780231 H, 786544 V) = (19.71% H, 15.08% V) = (1.927e+06um H, 1.943e+06um V)
+[12/04 22:50:58   1766s] (I)       
+[12/04 22:50:58   1766s] (I)       ============  Phase 1b Route ============
+[12/04 22:50:58   1766s] (I)       Phase 1b runs 0.24 seconds
+[12/04 22:50:58   1766s] (I)       Usage: 1566776 = (780231 H, 786545 V) = (19.71% H, 15.08% V) = (1.927e+06um H, 1.943e+06um V)
+[12/04 22:50:58   1766s] (I)       
+[12/04 22:50:58   1766s] (I)       earlyGlobalRoute overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 3.869937e+06um
+[12/04 22:50:58   1766s] (I)       ============  Phase 1c Route ============
+[12/04 22:50:58   1766s] (I)       Usage: 1566776 = (780231 H, 786545 V) = (19.71% H, 15.08% V) = (1.927e+06um H, 1.943e+06um V)
+[12/04 22:50:58   1766s] (I)       
+[12/04 22:50:58   1766s] (I)       ============  Phase 1d Route ============
+[12/04 22:50:58   1766s] (I)       Usage: 1566776 = (780231 H, 786545 V) = (19.71% H, 15.08% V) = (1.927e+06um H, 1.943e+06um V)
+[12/04 22:50:58   1766s] (I)       
+[12/04 22:50:58   1766s] (I)       ============  Phase 1e Route ============
+[12/04 22:50:58   1766s] (I)       Phase 1e runs 0.00 seconds
+[12/04 22:50:58   1766s] (I)       Usage: 1566776 = (780231 H, 786545 V) = (19.71% H, 15.08% V) = (1.927e+06um H, 1.943e+06um V)
+[12/04 22:50:58   1766s] (I)       
+[12/04 22:50:58   1766s] [NR-eGR] earlyGlobalRoute overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 3.869937e+06um
+[12/04 22:50:58   1766s] [NR-eGR] 
+[12/04 22:50:58   1766s] (I)       ============  Phase 1l Route ============
+[12/04 22:51:02   1768s] (I)       Phase 1l runs 1.86 seconds
+[12/04 22:51:02   1768s] (I)       
+[12/04 22:51:02   1768s] (I)       Congestion Analysis Layer By layer: (blocked Gcells are excluded) 
+[12/04 22:51:02   1768s] (I)                      OverCon            
+[12/04 22:51:02   1768s] (I)                       #Gcell     %Gcell
+[12/04 22:51:02   1768s] (I)       Layer              (2)    OverCon 
+[12/04 22:51:02   1768s] (I)       ------------------------------------
+[12/04 22:51:02   1768s] (I)       Layer1       0( 0.00%)   ( 0.00%) 
+[12/04 22:51:02   1768s] (I)       Layer2       4( 0.00%)   ( 0.00%) 
+[12/04 22:51:02   1768s] (I)       Layer3       3( 0.00%)   ( 0.00%) 
+[12/04 22:51:02   1768s] (I)       Layer4       6( 0.00%)   ( 0.00%) 
+[12/04 22:51:02   1768s] (I)       Layer5       2( 0.00%)   ( 0.00%) 
+[12/04 22:51:02   1768s] (I)       Layer6       6( 0.00%)   ( 0.00%) 
+[12/04 22:51:02   1768s] (I)       Layer7       3( 0.00%)   ( 0.00%) 
+[12/04 22:51:02   1768s] (I)       Layer8       2( 0.00%)   ( 0.00%) 
+[12/04 22:51:02   1768s] (I)       Layer9       0( 0.00%)   ( 0.00%) 
+[12/04 22:51:02   1768s] (I)       Layer10       0( 0.00%)   ( 0.00%) 
+[12/04 22:51:02   1768s] (I)       ------------------------------------
+[12/04 22:51:02   1768s] (I)       Total       26( 0.00%)   ( 0.00%) 
+[12/04 22:51:02   1768s] (I)       
+[12/04 22:51:02   1768s] (I)       Total Global Routing Runtime: 4.35 seconds
+[12/04 22:51:02   1769s] (I)       total 2D Cap : 9207546 = (3959475 H, 5248071 V)
+[12/04 22:51:02   1769s] [NR-eGR] Overflow after earlyGlobalRoute (GR compatible) 0.00% H + 0.00% V
+[12/04 22:51:02   1769s] [NR-eGR] Overflow after earlyGlobalRoute 0.00% H + 0.00% V
+[12/04 22:51:02   1769s] Early Global Route congestion estimation runtime: 6.73 seconds, mem = 1705.7M
+[12/04 22:51:02   1769s] Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+[12/04 22:51:02   1769s] Local HotSpot Analysis: normalized congestion hotspot area = 0.00/0.00 (max/total hotspot). One area unit = 1 square bin with side length equal to 4 std-cell rows.
+[12/04 22:51:02   1769s] 
+[12/04 22:51:02   1769s] ** np local hotspot detection info verbose **
+[12/04 22:51:02   1769s] level 0: max group area = 0.00 (0.00%) total group area = 0.00 (0.00%) threshold area = 88.00 (area is in unit of 4 std-cell row bins)
+[12/04 22:51:02   1769s] level 1: max group area = 0.00 (0.00%) total group area = 0.00 (0.00%) threshold area = 80.00 (area is in unit of 4 std-cell row bins)
+[12/04 22:51:02   1769s] level 2: max group area = 0.00 (0.00%) total group area = 0.00 (0.00%) threshold area = 72.00 (area is in unit of 4 std-cell row bins)
+[12/04 22:51:02   1769s] 
+[12/04 22:51:02   1769s] Skipped repairing congestion.
+[12/04 22:51:02   1769s] Starting Early Global Route wiring: mem = 1705.7M
+[12/04 22:51:02   1769s] (I)       ============= track Assignment ============
+[12/04 22:51:02   1769s] (I)       extract Global 3D Wires
+[12/04 22:51:02   1769s] (I)       Extract Global WL : time=0.08
+[12/04 22:51:02   1769s] (I)       Initialize Greedy Track Assignment (maxPinLayer=Layer11, numCutBoxes=0)
+[12/04 22:51:02   1769s] (I)       Initialization real time=0.00 seconds
+[12/04 22:51:11   1773s] (I)       Kernel real time=8.51 seconds
+[12/04 22:51:11   1773s] (I)       End Greedy Track Assignment
+[12/04 22:51:16   1776s] [NR-eGR] Layer1(metal1)(F) length: 0.000000e+00um, number of vias: 627572
+[12/04 22:51:16   1776s] [NR-eGR] Layer2(metal2)(V) length: 1.053222e+06um, number of vias: 853289
+[12/04 22:51:16   1776s] [NR-eGR] Layer3(metal3)(H) length: 1.170261e+06um, number of vias: 210686
+[12/04 22:51:16   1776s] [NR-eGR] Layer4(metal4)(V) length: 7.726032e+05um, number of vias: 190670
+[12/04 22:51:16   1776s] [NR-eGR] Layer5(metal5)(H) length: 7.187338e+05um, number of vias: 8821
+[12/04 22:51:16   1776s] [NR-eGR] Layer6(metal6)(V) length: 2.566777e+05um, number of vias: 3173
+[12/04 22:51:16   1776s] [NR-eGR] Layer7(metal7)(H) length: 8.674755e+04um, number of vias: 542
+[12/04 22:51:16   1776s] [NR-eGR] Layer8(metal8)(V) length: 1.780821e+04um, number of vias: 411
+[12/04 22:51:16   1776s] [NR-eGR] Layer9(metal9)(H) length: 1.821975e+04um, number of vias: 19
+[12/04 22:51:16   1776s] [NR-eGR] Layer10(metal10)(V) length: 1.540805e+03um, number of vias: 0
+[12/04 22:51:16   1776s] [NR-eGR] Total length: 4.095814e+06um, number of vias: 1895183
+[12/04 22:51:16   1777s] Early Global Route wiring runtime: 8.06 seconds, mem = 1766.7M
+[12/04 22:51:16   1777s] End of congRepair (cpu=0:00:15.2, real=0:00:24.0)
+[12/04 22:51:16   1777s] *** Finishing placeDesign default flow ***
+[12/04 22:51:16   1777s] **placeDesign ... cpu = 0:28:40, real = 0:45: 3, mem = 1717.9M **
+[12/04 22:51:16   1777s] Command spTest is not supported.
+[12/04 22:51:17   1777s] 
+[12/04 22:51:17   1777s] *** Summary of all messages that are not suppressed in this session:
+[12/04 22:51:17   1777s] Severity  ID               Count  Summary                                  
+[12/04 22:51:17   1777s] WARNING   IMPDC-1629           1  The default delay limit was set to %d. T...
+[12/04 22:51:17   1777s] WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+[12/04 22:51:17   1777s] WARNING   IMPSP-9042           1  Scan chains were not defined, -place_glo...
+[12/04 22:51:17   1777s] *** Message Summary: 3 warning(s), 0 error(s)
+[12/04 22:51:17   1777s] 
+[12/04 22:53:58   1788s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 22:54:06   1789s] <CMD> setNanoRouteMode -quiet -timingEngine {}
+[12/04 22:54:06   1789s] <CMD> setNanoRouteMode -quiet -routeWithSiPostRouteFix 0
+[12/04 22:54:06   1789s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 22:54:06   1789s] <CMD> setNanoRouteMode -quiet -drouteStartIteration default
+[12/04 22:54:06   1789s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 22:54:06   1789s] <CMD> setNanoRouteMode -quiet -routeTopRoutingLayer default
+[12/04 22:54:06   1789s] <CMD> setNanoRouteMode -quiet -routeBottomRoutingLayer default
+[12/04 22:54:06   1789s] <CMD> setNanoRouteMode -quiet -drouteEndIteration default
+[12/04 22:54:06   1789s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/04 22:54:06   1789s] <CMD> setNanoRouteMode -quiet -routeWithTimingDriven false
+[12/04 22:54:06   1789s] <CMD> setNanoRouteMode -quiet -routeWithSiDriven false
+[12/04 22:54:06   1789s] Running Native NanoRoute ...
+[12/04 22:54:06   1789s] <CMD> routeDesign -globalDetail
+[12/04 22:54:06   1789s] #routeDesign: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1225.74 (MB), peak = 1402.85 (MB)
+[12/04 22:54:06   1789s] #WARNING (NRIG-96) Selected single pass global detail route "-globalDetail". Clock eco and post optimizations will not be run. See "man NRIG-96" for more details.
+[12/04 22:54:06   1789s] #**INFO: setDesignMode -flowEffort standard
+[12/04 22:54:06   1789s] #**INFO: mulit-cut via swapping is disabled by user.
+[12/04 22:54:06   1789s] #**INFO: All auto set options tuned by routeDesign will be restored to their original settings on command completion.
+[12/04 22:54:06   1789s] #**INFO: auto set of routeReserveSpaceForMultiCut to true
+[12/04 22:54:06   1789s] #**INFO: auto set of routeConcurrentMinimizeViaCountEffort to high
+[12/04 22:54:07   1789s] Core basic site is CoreSite
+[12/04 22:54:07   1789s] **Info: (IMPSP-307): Design contains fractional 20 cells.
+[12/04 22:54:07   1789s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[12/04 22:54:07   1789s] Initialize ViaPillar Halo for 193404 instances.
+[12/04 22:54:07   1789s] Begin checking placement ... (start mem=1719.9M, init mem=1719.9M)
+[12/04 22:54:10   1791s] *info: Placed = 193404        
+[12/04 22:54:10   1791s] *info: Unplaced = 0           
+[12/04 22:54:10   1791s] Placement Density:66.26%(609068/919182)
+[12/04 22:54:10   1791s] Placement Density (including fixed std cells):66.26%(609068/919182)
+[12/04 22:54:10   1791s] Finished checkPlace (cpu: total=0:00:02.1, vio checks=0:00:01.5; mem=1719.9M)
+[12/04 22:54:10   1791s] #**INFO: honoring user setting for routeWithTimingDriven set to false
+[12/04 22:54:10   1791s] #**INFO: honoring user setting for routeWithSiDriven set to false
+[12/04 22:54:10   1791s] 
+[12/04 22:54:10   1791s] changeUseClockNetStatus Option :  -noFixedNetWires 
+[12/04 22:54:10   1791s] *** Changed status on (0) nets in Clock.
+[12/04 22:54:10   1791s] *** End changeUseClockNetStatus (cpu=0:00:00.0, real=0:00:00.0, mem=1719.9M) ***
+[12/04 22:54:10   1791s] 
+[12/04 22:54:10   1791s] globalDetailRoute
+[12/04 22:54:10   1791s] 
+[12/04 22:54:10   1791s] #setNanoRouteMode -routeConcurrentMinimizeViaCountEffort "high"
+[12/04 22:54:10   1791s] #setNanoRouteMode -routeReserveSpaceForMultiCut true
+[12/04 22:54:10   1791s] #setNanoRouteMode -routeWithSiDriven false
+[12/04 22:54:10   1791s] #setNanoRouteMode -routeWithTimingDriven false
+[12/04 22:54:10   1791s] #Start globalDetailRoute on Tue Dec  4 22:54:10 2018
+[12/04 22:54:10   1791s] #
+[12/04 22:54:14   1794s] ### Net info: total nets: 205143
+[12/04 22:54:14   1794s] ### Net info: dirty nets: 0
+[12/04 22:54:14   1794s] ### Net info: marked as disconnected nets: 0
+[12/04 22:54:15   1795s] ### Net info: fully routed nets: 0
+[12/04 22:54:15   1795s] ### Net info: trivial (single pin) nets: 0
+[12/04 22:54:15   1795s] ### Net info: unrouted nets: 205143
+[12/04 22:54:15   1795s] ### Net info: re-extraction nets: 0
+[12/04 22:54:15   1795s] ### Net info: ignored nets: 0
+[12/04 22:54:15   1795s] ### Net info: skip routing nets: 0
+[12/04 22:54:15   1795s] ### import wire route signature (0) =   56363922
+[12/04 22:54:16   1795s] #WARNING (NRDB-976) The TRACK STEP 0.2800 for preferred direction tracks is smaller than the PITCH 0.2850 for LAYER metal4. This will cause routability problems for NanoRoute.
+[12/04 22:54:16   1795s] #WARNING (NRDB-976) The TRACK STEP 0.2800 for preferred direction tracks is smaller than the PITCH 0.2850 for LAYER metal6. This will cause routability problems for NanoRoute.
+[12/04 22:54:16   1795s] #WARNING (NRDB-976) The TRACK STEP 0.8400 for preferred direction tracks is smaller than the PITCH 0.8550 for LAYER metal8. This will cause routability problems for NanoRoute.
+[12/04 22:54:16   1795s] #WARNING (NRDB-976) The TRACK STEP 1.6800 for preferred direction tracks is smaller than the PITCH 1.7100 for LAYER metal10. This will cause routability problems for NanoRoute.
+[12/04 22:54:16   1796s] #NanoRoute Version 16.20-p002_1 NR161103-1425/16_20-UB
+[12/04 22:54:16   1796s] #RTESIG:78da8dce410b82401005e0cefd8a61f5609035b3ae437b0dba56487515836d15446377fd
+[12/04 22:54:16   1796s] #       ff095d2d3dbf8ff75e143f4e0508e29dc4f48d284b8273414c84594a4ae67be2728cee47
+[12/04 22:54:16   1796s] #       b18ee2cbf526350142d274c158e3b63078e3c09b109ace6ebe84b303bcaad61b489e7ddf
+[12/04 22:54:16   1796s] #       4e1a3dd6cc19428d20eac6d602121fdc984cbb8c19821bfe76a95ccf0f2aa625482e403a
+[12/04 22:54:16   1796s] #       07f1f3f6ea031a956f73
+[12/04 22:54:16   1796s] #
+[12/04 22:54:17   1796s] #RTESIG:78da8dce410b82401005e0cefd8a61f5609035b3ae437b0dba56487515836d15446377fd
+[12/04 22:54:17   1796s] #       ff095d2d3dbf8ff75e143f4e0508e29dc4f48d284b8273414c84594a4ae67be2728cee47
+[12/04 22:54:17   1796s] #       b18ee2cbf526350142d274c158e3b63078e3c09b109ace6ebe84b303bcaad61b489e7ddf
+[12/04 22:54:17   1796s] #       4e1a3dd6cc19428d20eac6d602121fdc984cbb8c19821bfe76a95ccf0f2aa625482e403a
+[12/04 22:54:17   1796s] #       07f1f3f6ea031a956f73
+[12/04 22:54:17   1796s] #
+[12/04 22:54:17   1796s] #Start routing data preparation.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal1 is not specified for width 0.0650.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal2 is not specified for width 0.0700.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal1 is not specified for width 0.0650.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal2 is not specified for width 0.0700.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal2 is not specified for width 0.0700.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal3 is not specified for width 0.0700.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal2 is not specified for width 0.0700.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal3 is not specified for width 0.0700.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal3 is not specified for width 0.0700.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal4 is not specified for width 0.1400.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal3 is not specified for width 0.0700.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal4 is not specified for width 0.1400.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal4 is not specified for width 0.1400.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal5 is not specified for width 0.1400.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal4 is not specified for width 0.1400.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal5 is not specified for width 0.1400.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal5 is not specified for width 0.1400.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal6 is not specified for width 0.1400.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal5 is not specified for width 0.1400.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal6 is not specified for width 0.1400.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal6 is not specified for width 0.1400.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal7 is not specified for width 0.4000.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal6 is not specified for width 0.1400.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal7 is not specified for width 0.4000.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal7 is not specified for width 0.4000.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal8 is not specified for width 0.4000.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal7 is not specified for width 0.4000.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal8 is not specified for width 0.4000.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal8 is not specified for width 0.4000.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal9 is not specified for width 0.8000.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal8 is not specified for width 0.4000.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal9 is not specified for width 0.8000.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal9 is not specified for width 0.8000.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal10 is not specified for width 0.8000.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2077) The below via enclosure for LAYER metal9 is not specified for width 0.8000.
+[12/04 22:54:18   1796s] #WARNING (NRDB-2078) The above via enclosure for LAYER metal10 is not specified for width 0.8000.
+[12/04 22:54:18   1796s] #Minimum voltage of a net in the design = 0.000.
+[12/04 22:54:18   1796s] #Maximum voltage of a net in the design = 1.100.
+[12/04 22:54:18   1796s] #Voltage range [0.000 - 1.100] has 204421 nets.
+[12/04 22:54:18   1796s] #Voltage range [0.000 - 0.000] has 718 nets.
+[12/04 22:54:18   1796s] #Voltage range [1.100 - 1.100] has 4 nets.
+[12/04 22:54:20   1798s] # metal1       H   Track-Pitch = 0.1900    Line-2-Via Pitch = 0.1300
+[12/04 22:54:20   1798s] # metal2       V   Track-Pitch = 0.1900    Line-2-Via Pitch = 0.1450
+[12/04 22:54:20   1798s] # metal3       H   Track-Pitch = 0.1900    Line-2-Via Pitch = 0.1400
+[12/04 22:54:20   1798s] # metal4       V   Track-Pitch = 0.2800    Line-2-Via Pitch = 0.2800
+[12/04 22:54:20   1798s] # metal5       H   Track-Pitch = 0.2850    Line-2-Via Pitch = 0.2800
+[12/04 22:54:20   1798s] # metal6       V   Track-Pitch = 0.2800    Line-2-Via Pitch = 0.2800
+[12/04 22:54:20   1798s] # metal7       H   Track-Pitch = 0.9500    Line-2-Via Pitch = 0.8000
+[12/04 22:54:20   1798s] # metal8       V   Track-Pitch = 0.8400    Line-2-Via Pitch = 0.8000
+[12/04 22:54:20   1798s] # metal9       H   Track-Pitch = 1.7100    Line-2-Via Pitch = 1.6000
+[12/04 22:54:20   1798s] # metal10      V   Track-Pitch = 1.6800    Line-2-Via Pitch = 1.6000
+[12/04 22:54:25   1801s] #Regenerating Ggrids automatically.
+[12/04 22:54:25   1801s] #Auto generating G-grids with size=15 tracks, using layer metal3's pitch = 0.1900.
+[12/04 22:54:25   1801s] #Using automatically generated G-grids.
+[12/04 22:54:25   1801s] #Done routing data preparation.
+[12/04 22:54:25   1801s] #cpu time = 00:00:05, elapsed time = 00:00:08, memory = 1376.96 (MB), peak = 1405.93 (MB)
+[12/04 22:54:25   1801s] #Merging special wires...
+[12/04 22:54:27   1803s] #Number of eco nets is 0
+[12/04 22:54:27   1803s] #
+[12/04 22:54:27   1803s] #Start data preparation...
+[12/04 22:54:28   1803s] #
+[12/04 22:54:28   1803s] #Data preparation is done on Tue Dec  4 22:54:28 2018
+[12/04 22:54:28   1803s] #
+[12/04 22:54:28   1803s] #Analyzing routing resource...
+[12/04 22:54:35   1807s] #Routing resource analysis is done on Tue Dec  4 22:54:35 2018
+[12/04 22:54:35   1807s] #
+[12/04 22:54:35   1807s] #flow signature = 549253432
+[12/04 22:54:36   1807s] #  Resource Analysis:
+[12/04 22:54:36   1807s] #
+[12/04 22:54:36   1807s] #               Routing  #Avail      #Track     #Total     %Gcell
+[12/04 22:54:36   1807s] #  Layer      Direction   Track     Blocked      Gcell    Blocked
+[12/04 22:54:36   1807s] #  --------------------------------------------------------------
+[12/04 22:54:36   1807s] #  Metal 1        H        5096           0      115600    87.27%
+[12/04 22:54:36   1807s] #  Metal 2        V        5100           0      115600     0.00%
+[12/04 22:54:36   1807s] #  Metal 3        H        5096           0      115600     0.00%
+[12/04 22:54:36   1807s] #  Metal 4        V        3399           0      115600     0.00%
+[12/04 22:54:36   1807s] #  Metal 5        H        3396           0      115600     0.00%
+[12/04 22:54:36   1807s] #  Metal 6        V        3399           0      115600     0.00%
+[12/04 22:54:36   1807s] #  Metal 7        H        1019           0      115600     0.00%
+[12/04 22:54:36   1807s] #  Metal 8        V        1153           0      115600     0.00%
+[12/04 22:54:36   1807s] #  Metal 9        H         565           0      115600     0.01%
+[12/04 22:54:36   1807s] #  Metal 10       V         576           0      115600     0.00%
+[12/04 22:54:36   1807s] #  --------------------------------------------------------------
+[12/04 22:54:36   1807s] #  Total                  28799       0.00%     1156000     8.73%
+[12/04 22:54:36   1807s] #
+[12/04 22:54:36   1807s] #
+[12/04 22:54:36   1807s] #
+[12/04 22:54:37   1808s] #cpu time = 00:00:05, elapsed time = 00:00:10, memory = 1402.92 (MB), peak = 1405.93 (MB)
+[12/04 22:54:37   1808s] #
+[12/04 22:54:37   1808s] #start global routing iteration 1...
+[12/04 22:54:59   1823s] #cpu time = 00:00:16, elapsed time = 00:00:22, memory = 1435.66 (MB), peak = 1435.66 (MB)
+[12/04 22:54:59   1823s] #
+[12/04 22:54:59   1823s] #start global routing iteration 2...
+[12/04 22:55:38   1847s] #cpu time = 00:00:23, elapsed time = 00:00:39, memory = 1516.26 (MB), peak = 1516.26 (MB)
+[12/04 22:55:38   1847s] #
+[12/04 22:55:38   1847s] #start global routing iteration 3...
+[12/04 22:55:51   1855s] #cpu time = 00:00:09, elapsed time = 00:00:13, memory = 1530.13 (MB), peak = 1530.33 (MB)
+[12/04 22:55:51   1855s] #
+[12/04 22:55:52   1855s] #start global routing iteration 4...
+[12/04 22:57:03   1903s] #cpu time = 00:00:48, elapsed time = 00:01:12, memory = 1551.79 (MB), peak = 1551.79 (MB)
+[12/04 22:57:03   1903s] #
+[12/04 22:57:04   1904s] #
+[12/04 22:57:04   1904s] #Total number of trivial nets (e.g. < 2 pins) = 1977 (skipped).
+[12/04 22:57:04   1904s] #Total number of routable nets = 203166.
+[12/04 22:57:04   1904s] #Total number of nets in the design = 205143.
+[12/04 22:57:04   1904s] #
+[12/04 22:57:04   1904s] #203166 routable nets have only global wires.
+[12/04 22:57:04   1904s] #
+[12/04 22:57:04   1904s] #Routed nets constraints summary:
+[12/04 22:57:04   1904s] #-----------------------------
+[12/04 22:57:04   1904s] #        Rules   Unconstrained  
+[12/04 22:57:04   1904s] #-----------------------------
+[12/04 22:57:04   1904s] #      Default          203166  
+[12/04 22:57:04   1904s] #-----------------------------
+[12/04 22:57:04   1904s] #        Total          203166  
+[12/04 22:57:04   1904s] #-----------------------------
+[12/04 22:57:04   1904s] #
+[12/04 22:57:04   1904s] #Routing constraints summary of the whole design:
+[12/04 22:57:04   1904s] #-----------------------------
+[12/04 22:57:04   1904s] #        Rules   Unconstrained  
+[12/04 22:57:04   1904s] #-----------------------------
+[12/04 22:57:04   1904s] #      Default          203166  
+[12/04 22:57:04   1904s] #-----------------------------
+[12/04 22:57:04   1904s] #        Total          203166  
+[12/04 22:57:04   1904s] #-----------------------------
+[12/04 22:57:04   1904s] #
+[12/04 22:57:08   1906s] #
+[12/04 22:57:08   1906s] #  Congestion Analysis: (blocked Gcells are excluded)
+[12/04 22:57:08   1906s] #
+[12/04 22:57:08   1906s] #                 OverCon       OverCon       OverCon          
+[12/04 22:57:08   1906s] #                  #Gcell        #Gcell        #Gcell    %Gcell
+[12/04 22:57:08   1906s] #     Layer         (1-2)         (3-4)           (5)   OverCon
+[12/04 22:57:08   1906s] #  ------------------------------------------------------------
+[12/04 22:57:08   1906s] #   Metal 1      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+[12/04 22:57:08   1906s] #   Metal 2    565(0.49%)     43(0.04%)      8(0.01%)   (0.53%)
+[12/04 22:57:08   1906s] #   Metal 3      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+[12/04 22:57:08   1906s] #   Metal 4      1(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+[12/04 22:57:08   1906s] #   Metal 5      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+[12/04 22:57:08   1906s] #   Metal 6      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+[12/04 22:57:08   1906s] #   Metal 7      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+[12/04 22:57:08   1906s] #   Metal 8      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+[12/04 22:57:08   1906s] #   Metal 9      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+[12/04 22:57:08   1906s] #  Metal 10      0(0.00%)      0(0.00%)      0(0.00%)   (0.00%)
+[12/04 22:57:08   1906s] #  ------------------------------------------------------------
+[12/04 22:57:08   1906s] #     Total    566(0.05%)     43(0.00%)      8(0.00%)   (0.06%)
+[12/04 22:57:08   1906s] #
+[12/04 22:57:08   1906s] #  The worst congested Gcell overcon (routing demand over resource in number of tracks) = 5
+[12/04 22:57:08   1906s] #  Overflow after GR: 0.00% H + 0.11% V
+[12/04 22:57:08   1906s] #
+[12/04 22:57:08   1907s] #Complete Global Routing.
+[12/04 22:57:09   1907s] #Total wire length = 3853206 um.
+[12/04 22:57:09   1907s] #Total half perimeter of net bounding box = 3301270 um.
+[12/04 22:57:09   1907s] #Total wire length on LAYER metal1 = 1114 um.
+[12/04 22:57:09   1907s] #Total wire length on LAYER metal2 = 1235262 um.
+[12/04 22:57:09   1907s] #Total wire length on LAYER metal3 = 1557551 um.
+[12/04 22:57:09   1907s] #Total wire length on LAYER metal4 = 674716 um.
+[12/04 22:57:09   1907s] #Total wire length on LAYER metal5 = 316963 um.
+[12/04 22:57:09   1907s] #Total wire length on LAYER metal6 = 62429 um.
+[12/04 22:57:09   1907s] #Total wire length on LAYER metal7 = 5010 um.
+[12/04 22:57:09   1907s] #Total wire length on LAYER metal8 = 111 um.
+[12/04 22:57:09   1907s] #Total wire length on LAYER metal9 = 48 um.
+[12/04 22:57:09   1907s] #Total wire length on LAYER metal10 = 0 um.
+[12/04 22:57:09   1907s] #Total number of vias = 1041246
+[12/04 22:57:09   1907s] #Up-Via Summary (total 1041246):
+[12/04 22:57:09   1907s] #           
+[12/04 22:57:09   1907s] #-----------------------
+[12/04 22:57:09   1907s] #  Metal 1       587199
+[12/04 22:57:09   1907s] #  Metal 2       401430
+[12/04 22:57:09   1907s] #  Metal 3        39681
+[12/04 22:57:09   1907s] #  Metal 4        10836
+[12/04 22:57:09   1907s] #  Metal 5         1767
+[12/04 22:57:09   1907s] #  Metal 6          258
+[12/04 22:57:09   1907s] #  Metal 7           42
+[12/04 22:57:09   1907s] #  Metal 8           30
+[12/04 22:57:09   1907s] #  Metal 9            3
+[12/04 22:57:09   1907s] #-----------------------
+[12/04 22:57:09   1907s] #               1041246 
+[12/04 22:57:09   1907s] #
+[12/04 22:57:09   1907s] #Max overcon = 5 tracks.
+[12/04 22:57:09   1907s] #Total overcon = 0.06%.
+[12/04 22:57:09   1907s] #Worst layer Gcell overcon rate = 0.00%.
+[12/04 22:57:09   1907s] #cpu time = 00:01:45, elapsed time = 00:02:42, memory = 1551.83 (MB), peak = 1551.83 (MB)
+[12/04 22:57:09   1907s] #
+[12/04 22:57:10   1908s] ### route signature (3) =  736882078
+[12/04 22:57:10   1908s] ### violation signature (2) = 1905142130
+[12/04 22:57:12   1910s] #cpu time = 00:00:01, elapsed time = 00:00:02, memory = 1487.88 (MB), peak = 1551.84 (MB)
+[12/04 22:57:14   1911s] #Start Track Assignment.
+[12/04 22:58:32   1963s] #Done with 281451 horizontal wires in 3 hboxes and 289556 vertical wires in 3 hboxes.
+[12/04 23:00:09   2021s] #Done with 73784 horizontal wires in 3 hboxes and 67216 vertical wires in 3 hboxes.
+[12/04 23:00:31   2033s] #Done with 3 horizontal wires in 3 hboxes and 3 vertical wires in 3 hboxes.
+[12/04 23:00:31   2033s] #
+[12/04 23:00:31   2033s] #Track assignment summary:
+[12/04 23:00:31   2033s] # layer   (wire length)   (overlap)       (long ovlp) 
+[12/04 23:00:31   2033s] #----------------------------------------------------
+[12/04 23:00:31   2033s] # metal1      1095.56 	  0.12%  	  0.00%
+[12/04 23:00:31   2033s] # metal2   1228326.62 	  0.16%  	  0.00%
+[12/04 23:00:31   2033s] # metal3   1538186.46 	  0.19%  	  0.00%
+[12/04 23:00:31   2033s] # metal4    678058.48 	  0.01%  	  0.00%
+[12/04 23:00:31   2033s] # metal5    318034.60 	  0.01%  	  0.00%
+[12/04 23:00:31   2033s] # metal6     62539.90 	  0.00%  	  0.00%
+[12/04 23:00:31   2033s] # metal7      5054.55 	  0.02%  	  0.00%
+[12/04 23:00:31   2033s] # metal8       116.30 	  0.67%  	  0.00%
+[12/04 23:00:31   2033s] # metal9        53.79 	  0.00%  	  0.00%
+[12/04 23:00:31   2033s] # metal10        0.00 	  0.00%  	  0.00%
+[12/04 23:00:31   2033s] #----------------------------------------------------
+[12/04 23:00:31   2033s] # All     3831466.25  	  0.13% 	  0.00%
+[12/04 23:00:32   2033s] #Complete Track Assignment.
+[12/04 23:00:32   2034s] #Total wire length = 4050889 um.
+[12/04 23:00:32   2034s] #Total half perimeter of net bounding box = 3301270 um.
+[12/04 23:00:32   2034s] #Total wire length on LAYER metal1 = 129594 um.
+[12/04 23:00:32   2034s] #Total wire length on LAYER metal2 = 1238588 um.
+[12/04 23:00:32   2034s] #Total wire length on LAYER metal3 = 1615836 um.
+[12/04 23:00:32   2034s] #Total wire length on LAYER metal4 = 679797 um.
+[12/04 23:00:32   2034s] #Total wire length on LAYER metal5 = 319029 um.
+[12/04 23:00:32   2034s] #Total wire length on LAYER metal6 = 62798 um.
+[12/04 23:00:32   2034s] #Total wire length on LAYER metal7 = 5076 um.
+[12/04 23:00:32   2034s] #Total wire length on LAYER metal8 = 116 um.
+[12/04 23:00:32   2034s] #Total wire length on LAYER metal9 = 55 um.
+[12/04 23:00:32   2034s] #Total wire length on LAYER metal10 = 0 um.
+[12/04 23:00:32   2034s] #Total number of vias = 1041246
+[12/04 23:00:32   2034s] #Up-Via Summary (total 1041246):
+[12/04 23:00:32   2034s] #           
+[12/04 23:00:32   2034s] #-----------------------
+[12/04 23:00:32   2034s] #  Metal 1       587199
+[12/04 23:00:32   2034s] #  Metal 2       401430
+[12/04 23:00:32   2034s] #  Metal 3        39681
+[12/04 23:00:32   2034s] #  Metal 4        10836
+[12/04 23:00:32   2034s] #  Metal 5         1767
+[12/04 23:00:32   2034s] #  Metal 6          258
+[12/04 23:00:32   2034s] #  Metal 7           42
+[12/04 23:00:32   2034s] #  Metal 8           30
+[12/04 23:00:32   2034s] #  Metal 9            3
+[12/04 23:00:32   2034s] #-----------------------
+[12/04 23:00:32   2034s] #               1041246 
+[12/04 23:00:32   2034s] #
+[12/04 23:00:34   2034s] ### route signature (7) = 1870404002
+[12/04 23:00:34   2034s] ### violation signature (6) = 1905142130
+[12/04 23:00:34   2034s] #cpu time = 00:02:06, elapsed time = 00:03:23, memory = 1580.09 (MB), peak = 1580.09 (MB)
+[12/04 23:00:34   2034s] #
+[12/04 23:00:34   2034s] #Cpu time = 00:03:58
+[12/04 23:00:34   2034s] #Elapsed time = 00:06:17
+[12/04 23:00:34   2034s] #Increased memory = 214.94 (MB)
+[12/04 23:00:34   2034s] #Total memory = 1580.10 (MB)
+[12/04 23:00:34   2034s] #Peak memory = 1580.10 (MB)
+[12/04 23:00:40   2038s] #
+[12/04 23:00:40   2038s] #Start Detail Routing..
+[12/04 23:00:40   2038s] #start initial detail routing ...
+[12/04 23:07:43   2309s] #    completing 10% with 1078 violations
+[12/04 23:07:43   2309s] #    cpu time = 00:04:32, elapsed time = 00:07:04, memory = 1602.37 (MB), peak = 1605.39 (MB)
+[12/04 23:16:46   2652s] #    completing 20% with 2281 violations
+[12/04 23:16:46   2652s] #    cpu time = 00:10:14, elapsed time = 00:16:07, memory = 1615.78 (MB), peak = 1616.50 (MB)
+[12/04 23:25:10   2983s] #    completing 30% with 3435 violations
+[12/04 23:25:10   2983s] #    cpu time = 00:15:45, elapsed time = 00:24:30, memory = 1628.30 (MB), peak = 1628.30 (MB)
+[12/04 23:33:08   3283s] #    completing 40% with 4209 violations
+[12/04 23:33:08   3283s] #    cpu time = 00:20:45, elapsed time = 00:32:28, memory = 1635.74 (MB), peak = 1635.74 (MB)
+[12/04 23:40:47   3570s] #    completing 50% with 4416 violations
+[12/04 23:40:47   3570s] #    cpu time = 00:25:33, elapsed time = 00:40:07, memory = 1625.76 (MB), peak = 1636.23 (MB)
+[12/04 23:49:14   3880s] #    completing 60% with 4544 violations
+[12/04 23:49:14   3880s] #    cpu time = 00:30:42, elapsed time = 00:48:34, memory = 1636.04 (MB), peak = 1636.75 (MB)
+[12/04 23:58:16   4208s] #    completing 70% with 4808 violations
+[12/04 23:58:16   4208s] #    cpu time = 00:36:10, elapsed time = 00:57:36, memory = 1644.67 (MB), peak = 1653.71 (MB)
+[12/05 00:07:19   4544s] #    completing 80% with 5790 violations
+[12/05 00:07:19   4544s] #    cpu time = 00:41:46, elapsed time = 01:06:40, memory = 1655.66 (MB), peak = 1663.42 (MB)
+[12/05 00:17:27   4910s] #    completing 90% with 6850 violations
+[12/05 00:17:27   4910s] #    cpu time = 00:47:53, elapsed time = 01:16:48, memory = 1671.12 (MB), peak = 1675.61 (MB)
+[12/05 00:24:56   5179s] #    completing 100% with 7960 violations
+[12/05 00:24:56   5179s] #    cpu time = 00:52:21, elapsed time = 01:24:16, memory = 1653.83 (MB), peak = 1675.61 (MB)
+[12/05 00:24:58   5180s] #    number of violations = 7960
+[12/05 00:24:58   5180s] #
+[12/05 00:24:58   5180s] #    By Layer and Type :
+[12/05 00:24:58   5180s] #	         MetSpc    NSMet    Short     Loop   CutSpc   Totals
+[12/05 00:24:58   5180s] #	metal1       68        0     6346        0        2     6416
+[12/05 00:24:58   5180s] #	metal2     1182       58      170       92        0     1502
+[12/05 00:24:58   5180s] #	metal3        7        0       33        2        0       42
+[12/05 00:24:58   5180s] #	Totals     1257       58     6549       94        2     7960
+[12/05 00:24:58   5180s] #cpu time = 00:52:23, elapsed time = 01:24:18, memory = 1653.84 (MB), peak = 1675.61 (MB)
+[12/05 00:24:58   5180s] #start 1st optimization iteration ...
+[12/05 00:25:40   5205s] #    completing 10% with 7127 violations
+[12/05 00:25:40   5205s] #    cpu time = 00:00:25, elapsed time = 00:00:43, memory = 1607.68 (MB), peak = 1675.61 (MB)
+[12/05 00:26:23   5232s] #    completing 20% with 6369 violations
+[12/05 00:26:23   5232s] #    cpu time = 00:00:52, elapsed time = 00:01:25, memory = 1607.69 (MB), peak = 1675.61 (MB)
+[12/05 00:27:13   5262s] #    completing 30% with 5612 violations
+[12/05 00:27:13   5262s] #    cpu time = 00:01:21, elapsed time = 00:02:15, memory = 1596.71 (MB), peak = 1675.61 (MB)
+[12/05 00:27:52   5288s] #    completing 40% with 4789 violations
+[12/05 00:27:52   5288s] #    cpu time = 00:01:48, elapsed time = 00:02:55, memory = 1598.11 (MB), peak = 1675.61 (MB)
+[12/05 00:28:34   5314s] #    completing 50% with 4221 violations
+[12/05 00:28:34   5314s] #    cpu time = 00:02:14, elapsed time = 00:03:36, memory = 1601.47 (MB), peak = 1675.61 (MB)
+[12/05 00:29:12   5340s] #    completing 60% with 3444 violations
+[12/05 00:29:12   5340s] #    cpu time = 00:02:40, elapsed time = 00:04:14, memory = 1600.61 (MB), peak = 1675.61 (MB)
+[12/05 00:29:48   5366s] #    completing 70% with 2606 violations
+[12/05 00:29:48   5366s] #    cpu time = 00:03:06, elapsed time = 00:04:51, memory = 1600.61 (MB), peak = 1675.61 (MB)
+[12/05 00:30:32   5393s] #    completing 80% with 1824 violations
+[12/05 00:30:32   5393s] #    cpu time = 00:03:33, elapsed time = 00:05:34, memory = 1595.12 (MB), peak = 1675.61 (MB)
+[12/05 00:31:10   5421s] #    completing 90% with 1050 violations
+[12/05 00:31:10   5421s] #    cpu time = 00:04:01, elapsed time = 00:06:12, memory = 1601.93 (MB), peak = 1675.61 (MB)
+[12/05 00:31:46   5444s] #    completing 100% with 215 violations
+[12/05 00:31:46   5444s] #    cpu time = 00:04:24, elapsed time = 00:06:48, memory = 1601.94 (MB), peak = 1675.61 (MB)
+[12/05 00:31:47   5445s] #    number of violations = 215
+[12/05 00:31:47   5445s] #
+[12/05 00:31:47   5445s] #    By Layer and Type :
+[12/05 00:31:47   5445s] #	         MetSpc    NSMet    Short     Loop   Totals
+[12/05 00:31:47   5445s] #	metal1        2        0        0        0        2
+[12/05 00:31:47   5445s] #	metal2      177        2       16        5      200
+[12/05 00:31:47   5445s] #	metal3        1        0       12        0       13
+[12/05 00:31:47   5445s] #	Totals      180        2       28        5      215
+[12/05 00:31:47   5445s] #cpu time = 00:04:25, elapsed time = 00:06:49, memory = 1601.94 (MB), peak = 1675.61 (MB)
+[12/05 00:31:47   5445s] #start 2nd optimization iteration ...
+[12/05 00:32:13   5461s] #    number of violations = 69
+[12/05 00:32:13   5461s] #
+[12/05 00:32:13   5461s] #    By Layer and Type :
+[12/05 00:32:13   5461s] #	         MetSpc    Short   Totals
+[12/05 00:32:13   5461s] #	metal1        0        0        0
+[12/05 00:32:13   5461s] #	metal2       66        1       67
+[12/05 00:32:13   5461s] #	metal3        0        2        2
+[12/05 00:32:13   5461s] #	Totals       66        3       69
+[12/05 00:32:13   5461s] #cpu time = 00:00:16, elapsed time = 00:00:26, memory = 1597.06 (MB), peak = 1675.61 (MB)
+[12/05 00:32:13   5461s] #start 3rd optimization iteration ...
+[12/05 00:32:23   5467s] #    number of violations = 30
+[12/05 00:32:23   5467s] #
+[12/05 00:32:23   5467s] #    By Layer and Type :
+[12/05 00:32:23   5467s] #	         MetSpc    Short   Totals
+[12/05 00:32:23   5467s] #	metal1        0        0        0
+[12/05 00:32:23   5467s] #	metal2       29        1       30
+[12/05 00:32:23   5467s] #	Totals       29        1       30
+[12/05 00:32:23   5467s] #cpu time = 00:00:06, elapsed time = 00:00:10, memory = 1596.39 (MB), peak = 1675.61 (MB)
+[12/05 00:32:23   5467s] #start 4th optimization iteration ...
+[12/05 00:32:27   5470s] #    number of violations = 27
+[12/05 00:32:27   5470s] #
+[12/05 00:32:27   5470s] #    By Layer and Type :
+[12/05 00:32:27   5470s] #	         MetSpc    Short   Totals
+[12/05 00:32:27   5470s] #	metal1        0        1        1
+[12/05 00:32:27   5470s] #	metal2       25        1       26
+[12/05 00:32:27   5470s] #	Totals       25        2       27
+[12/05 00:32:27   5470s] #cpu time = 00:00:03, elapsed time = 00:00:05, memory = 1594.55 (MB), peak = 1675.61 (MB)
+[12/05 00:32:27   5470s] #start 5th optimization iteration ...
+[12/05 00:32:32   5473s] #    number of violations = 22
+[12/05 00:32:32   5473s] #
+[12/05 00:32:32   5473s] #    By Layer and Type :
+[12/05 00:32:32   5473s] #	         MetSpc   Totals
+[12/05 00:32:32   5473s] #	metal1        0        0
+[12/05 00:32:32   5473s] #	metal2       22       22
+[12/05 00:32:32   5473s] #	Totals       22       22
+[12/05 00:32:32   5473s] #cpu time = 00:00:03, elapsed time = 00:00:04, memory = 1594.55 (MB), peak = 1675.61 (MB)
+[12/05 00:32:32   5473s] #start 6th optimization iteration ...
+[12/05 00:32:38   5477s] #    number of violations = 13
+[12/05 00:32:38   5477s] #
+[12/05 00:32:38   5477s] #    By Layer and Type :
+[12/05 00:32:38   5477s] #	         MetSpc    Short   Totals
+[12/05 00:32:38   5477s] #	metal1        0        1        1
+[12/05 00:32:38   5477s] #	metal2       12        0       12
+[12/05 00:32:38   5477s] #	Totals       12        1       13
+[12/05 00:32:38   5477s] #cpu time = 00:00:05, elapsed time = 00:00:07, memory = 1614.73 (MB), peak = 1675.61 (MB)
+[12/05 00:32:38   5477s] #start 7th optimization iteration ...
+[12/05 00:32:44   5481s] #    number of violations = 2
+[12/05 00:32:44   5481s] #
+[12/05 00:32:44   5481s] #    By Layer and Type :
+[12/05 00:32:44   5481s] #	         MetSpc   Totals
+[12/05 00:32:44   5481s] #	metal1        0        0
+[12/05 00:32:44   5481s] #	metal2        2        2
+[12/05 00:32:44   5481s] #	Totals        2        2
+[12/05 00:32:44   5481s] #cpu time = 00:00:04, elapsed time = 00:00:05, memory = 1614.47 (MB), peak = 1675.61 (MB)
+[12/05 00:32:44   5481s] #start 8th optimization iteration ...
+[12/05 00:32:45   5482s] #    number of violations = 1
+[12/05 00:32:45   5482s] #
+[12/05 00:32:45   5482s] #    By Layer and Type :
+[12/05 00:32:45   5482s] #	         MetSpc   Totals
+[12/05 00:32:45   5482s] #	metal1        0        0
+[12/05 00:32:45   5482s] #	metal2        1        1
+[12/05 00:32:45   5482s] #	Totals        1        1
+[12/05 00:32:45   5482s] #cpu time = 00:00:01, elapsed time = 00:00:02, memory = 1614.47 (MB), peak = 1675.61 (MB)
+[12/05 00:32:45   5482s] #start 9th optimization iteration ...
+[12/05 00:32:47   5484s] #    number of violations = 1
+[12/05 00:32:47   5484s] #
+[12/05 00:32:47   5484s] #    By Layer and Type :
+[12/05 00:32:47   5484s] #	         MetSpc   Totals
+[12/05 00:32:47   5484s] #	metal1        0        0
+[12/05 00:32:47   5484s] #	metal2        1        1
+[12/05 00:32:47   5484s] #	Totals        1        1
+[12/05 00:32:47   5484s] #cpu time = 00:00:01, elapsed time = 00:00:02, memory = 1614.47 (MB), peak = 1675.61 (MB)
+[12/05 00:32:47   5484s] #start 10th optimization iteration ...
+[12/05 00:32:49   5485s] #    number of violations = 1
+[12/05 00:32:49   5485s] #
+[12/05 00:32:49   5485s] #    By Layer and Type :
+[12/05 00:32:49   5485s] #	         MetSpc   Totals
+[12/05 00:32:49   5485s] #	metal1        0        0
+[12/05 00:32:49   5485s] #	metal2        1        1
+[12/05 00:32:49   5485s] #	Totals        1        1
+[12/05 00:32:49   5485s] #cpu time = 00:00:01, elapsed time = 00:00:02, memory = 1614.47 (MB), peak = 1675.61 (MB)
+[12/05 00:32:49   5485s] #start 11th optimization iteration ...
+[12/05 00:32:52   5486s] #    number of violations = 0
+[12/05 00:32:52   5486s] #cpu time = 00:00:01, elapsed time = 00:00:03, memory = 1643.52 (MB), peak = 1675.61 (MB)
+[12/05 00:32:54   5487s] #Complete Detail Routing.
+[12/05 00:32:55   5488s] #Total wire length = 4048421 um.
+[12/05 00:32:55   5488s] #Total half perimeter of net bounding box = 3301270 um.
+[12/05 00:32:55   5488s] #Total wire length on LAYER metal1 = 78805 um.
+[12/05 00:32:55   5488s] #Total wire length on LAYER metal2 = 1146446 um.
+[12/05 00:32:55   5488s] #Total wire length on LAYER metal3 = 1501163 um.
+[12/05 00:32:55   5488s] #Total wire length on LAYER metal4 = 925544 um.
+[12/05 00:32:55   5488s] #Total wire length on LAYER metal5 = 326377 um.
+[12/05 00:32:55   5488s] #Total wire length on LAYER metal6 = 64893 um.
+[12/05 00:32:55   5488s] #Total wire length on LAYER metal7 = 4649 um.
+[12/05 00:32:55   5488s] #Total wire length on LAYER metal8 = 304 um.
+[12/05 00:32:55   5488s] #Total wire length on LAYER metal9 = 214 um.
+[12/05 00:32:55   5488s] #Total wire length on LAYER metal10 = 27 um.
+[12/05 00:32:55   5488s] #Total number of vias = 1281895
+[12/05 00:32:55   5488s] #Up-Via Summary (total 1281895):
+[12/05 00:32:55   5488s] #           
+[12/05 00:32:55   5488s] #-----------------------
+[12/05 00:32:55   5488s] #  Metal 1       639749
+[12/05 00:32:55   5488s] #  Metal 2       516621
+[12/05 00:32:55   5488s] #  Metal 3       111505
+[12/05 00:32:55   5488s] #  Metal 4        11761
+[12/05 00:32:55   5488s] #  Metal 5         1929
+[12/05 00:32:55   5488s] #  Metal 6          252
+[12/05 00:32:55   5488s] #  Metal 7           45
+[12/05 00:32:55   5488s] #  Metal 8           30
+[12/05 00:32:55   5488s] #  Metal 9            3
+[12/05 00:32:55   5488s] #-----------------------
+[12/05 00:32:55   5488s] #               1281895 
+[12/05 00:32:55   5488s] #
+[12/05 00:32:56   5488s] #Total number of DRC violations = 0
+[12/05 00:32:57   5489s] ### route signature (34) =  665433001
+[12/05 00:32:57   5489s] ### violation signature (33) = 1905142130
+[12/05 00:32:57   5489s] #Cpu time = 00:57:35
+[12/05 00:32:57   5489s] #Elapsed time = 01:32:24
+[12/05 00:32:57   5489s] #Increased memory = -29.09 (MB)
+[12/05 00:32:57   5489s] #Total memory = 1551.01 (MB)
+[12/05 00:32:57   5489s] #Peak memory = 1675.61 (MB)
+[12/05 00:33:02   5493s] #
+[12/05 00:33:02   5493s] #Start Post Route wire spreading..
+[12/05 00:33:04   5494s] #
+[12/05 00:33:04   5494s] #Start data preparation for wire spreading...
+[12/05 00:33:04   5494s] #
+[12/05 00:33:04   5494s] #Data preparation is done on Wed Dec  5 00:33:04 2018
+[12/05 00:33:04   5494s] #
+[12/05 00:33:06   5496s] #
+[12/05 00:33:06   5496s] #Start Post Route Wire Spread.
+[12/05 00:34:45   5560s] #Done with 157281 horizontal wires in 6 hboxes and 130486 vertical wires in 6 hboxes.
+[12/05 00:34:50   5562s] #Complete Post Route Wire Spread.
+[12/05 00:34:50   5562s] #
+[12/05 00:34:51   5563s] #Total wire length = 4152421 um.
+[12/05 00:34:51   5563s] #Total half perimeter of net bounding box = 3301270 um.
+[12/05 00:34:51   5563s] #Total wire length on LAYER metal1 = 79001 um.
+[12/05 00:34:51   5563s] #Total wire length on LAYER metal2 = 1172070 um.
+[12/05 00:34:51   5563s] #Total wire length on LAYER metal3 = 1557643 um.
+[12/05 00:34:51   5563s] #Total wire length on LAYER metal4 = 945437 um.
+[12/05 00:34:51   5563s] #Total wire length on LAYER metal5 = 327944 um.
+[12/05 00:34:51   5563s] #Total wire length on LAYER metal6 = 65074 um.
+[12/05 00:34:51   5563s] #Total wire length on LAYER metal7 = 4704 um.
+[12/05 00:34:51   5563s] #Total wire length on LAYER metal8 = 308 um.
+[12/05 00:34:51   5563s] #Total wire length on LAYER metal9 = 214 um.
+[12/05 00:34:51   5563s] #Total wire length on LAYER metal10 = 27 um.
+[12/05 00:34:51   5563s] #Total number of vias = 1281895
+[12/05 00:34:51   5563s] #Up-Via Summary (total 1281895):
+[12/05 00:34:51   5563s] #           
+[12/05 00:34:51   5563s] #-----------------------
+[12/05 00:34:51   5563s] #  Metal 1       639749
+[12/05 00:34:51   5563s] #  Metal 2       516621
+[12/05 00:34:51   5563s] #  Metal 3       111505
+[12/05 00:34:51   5563s] #  Metal 4        11761
+[12/05 00:34:51   5563s] #  Metal 5         1929
+[12/05 00:34:51   5563s] #  Metal 6          252
+[12/05 00:34:51   5563s] #  Metal 7           45
+[12/05 00:34:51   5563s] #  Metal 8           30
+[12/05 00:34:51   5563s] #  Metal 9            3
+[12/05 00:34:51   5563s] #-----------------------
+[12/05 00:34:51   5563s] #               1281895 
+[12/05 00:34:51   5563s] #
+[12/05 00:34:53   5565s] ### route signature (38) = 1336003981
+[12/05 00:34:53   5565s] ### violation signature (37) = 1905142130
+[12/05 00:34:59   5569s] #
+[12/05 00:34:59   5569s] #Start DRC checking..
+[12/05 00:42:35   5853s] #    number of violations = 0
+[12/05 00:42:35   5853s] #cpu time = 00:04:44, elapsed time = 00:07:35, memory = 1745.59 (MB), peak = 1816.53 (MB)
+[12/05 00:42:35   5853s] #CELL_VIEW cmp,init has no DRC violation.
+[12/05 00:42:35   5853s] #Total number of DRC violations = 0
+[12/05 00:42:37   5854s] ### route signature (43) =  862371991
+[12/05 00:42:37   5854s] ### violation signature (42) = 1905142130
+[12/05 00:42:38   5855s] #    number of violations = 0
+[12/05 00:42:38   5855s] #cpu time = 00:06:02, elapsed time = 00:09:36, memory = 1676.88 (MB), peak = 1816.53 (MB)
+[12/05 00:42:38   5855s] #CELL_VIEW cmp,init has no DRC violation.
+[12/05 00:42:38   5855s] #Total number of DRC violations = 0
+[12/05 00:42:38   5855s] #Post Route wire spread is done.
+[12/05 00:42:40   5856s] #Total wire length = 4152421 um.
+[12/05 00:42:40   5856s] #Total half perimeter of net bounding box = 3301270 um.
+[12/05 00:42:40   5856s] #Total wire length on LAYER metal1 = 79001 um.
+[12/05 00:42:40   5856s] #Total wire length on LAYER metal2 = 1172070 um.
+[12/05 00:42:40   5856s] #Total wire length on LAYER metal3 = 1557643 um.
+[12/05 00:42:40   5856s] #Total wire length on LAYER metal4 = 945437 um.
+[12/05 00:42:40   5856s] #Total wire length on LAYER metal5 = 327944 um.
+[12/05 00:42:40   5856s] #Total wire length on LAYER metal6 = 65074 um.
+[12/05 00:42:40   5856s] #Total wire length on LAYER metal7 = 4704 um.
+[12/05 00:42:40   5856s] #Total wire length on LAYER metal8 = 308 um.
+[12/05 00:42:40   5856s] #Total wire length on LAYER metal9 = 214 um.
+[12/05 00:42:40   5856s] #Total wire length on LAYER metal10 = 27 um.
+[12/05 00:42:40   5856s] #Total number of vias = 1281895
+[12/05 00:42:40   5856s] #Up-Via Summary (total 1281895):
+[12/05 00:42:40   5856s] #           
+[12/05 00:42:40   5856s] #-----------------------
+[12/05 00:42:40   5856s] #  Metal 1       639749
+[12/05 00:42:40   5856s] #  Metal 2       516621
+[12/05 00:42:40   5856s] #  Metal 3       111505
+[12/05 00:42:40   5856s] #  Metal 4        11761
+[12/05 00:42:40   5856s] #  Metal 5         1929
+[12/05 00:42:40   5856s] #  Metal 6          252
+[12/05 00:42:40   5856s] #  Metal 7           45
+[12/05 00:42:40   5856s] #  Metal 8           30
+[12/05 00:42:40   5856s] #  Metal 9            3
+[12/05 00:42:40   5856s] #-----------------------
+[12/05 00:42:40   5856s] #               1281895 
+[12/05 00:42:40   5856s] #
+[12/05 00:42:42   5858s] ### route signature (45) =  862371991
+[12/05 00:42:42   5858s] ### violation signature (44) = 1905142130
+[12/05 00:42:42   5858s] #detailRoute Statistics:
+[12/05 00:42:42   5858s] #Cpu time = 01:03:44
+[12/05 00:42:42   5858s] #Elapsed time = 01:42:08
+[12/05 00:42:42   5858s] #Increased memory = 94.66 (MB)
+[12/05 00:42:42   5858s] #Total memory = 1674.76 (MB)
+[12/05 00:42:42   5858s] #Peak memory = 1816.53 (MB)
+[12/05 00:42:47   5861s] ### export wire route signature (46) =  862371991
+[12/05 00:43:04   5870s] ### export violation violation signature (45) = 1905142130
+[12/05 00:43:38   5886s] #
+[12/05 00:43:38   5886s] #globalDetailRoute statistics:
+[12/05 00:43:38   5886s] #Cpu time = 01:08:15
+[12/05 00:43:38   5886s] #Elapsed time = 01:49:28
+[12/05 00:43:38   5886s] #Increased memory = 289.35 (MB)
+[12/05 00:43:38   5886s] #Total memory = 1552.50 (MB)
+[12/05 00:43:38   5886s] #Peak memory = 1816.53 (MB)
+[12/05 00:43:38   5886s] #Number of warnings = 40
+[12/05 00:43:38   5886s] #Total number of warnings = 42
+[12/05 00:43:38   5886s] #Number of fails = 0
+[12/05 00:43:38   5886s] #Total number of fails = 0
+[12/05 00:43:38   5886s] #Complete globalDetailRoute on Wed Dec  5 00:43:38 2018
+[12/05 00:43:38   5886s] #
+[12/05 00:43:38   5887s] #routeDesign: cpu time = 01:08:18, elapsed time = 01:49:32, memory = 1325.20 (MB), peak = 1816.53 (MB)
+[12/05 00:43:38   5887s] 
+[12/05 00:43:38   5887s] *** Summary of all messages that are not suppressed in this session:
+[12/05 00:43:38   5887s] Severity  ID               Count  Summary                                  
+[12/05 00:43:38   5887s] WARNING   IMPSYC-1785          1  Saving wires file without congestion map...
+[12/05 00:43:38   5887s] WARNING   IMPSYC-1784          1  Will not save congestion table           
+[12/05 00:43:38   5887s] WARNING   IMPSYC-1798          1  Congestion table is NOT restored.        
+[12/05 00:43:38   5887s] *** Message Summary: 3 warning(s), 0 error(s)
+[12/05 00:43:38   5887s] 
+[12/05 00:47:32   5908s] <CMD> saveNetlist ../Innovus-PNR/cmpcrc.syn
+[12/05 00:47:32   5908s] Writing Netlist "../Innovus-PNR/cmpcrc.syn" ...
+[12/05 00:47:40   5909s] Performing RC Extraction ...
+[12/05 00:47:40   5909s] <CMD> extractRC
+[12/05 00:47:40   5909s] Extraction called for design 'cmp' of instances=193404 and nets=205143 using extraction engine 'preRoute' .
+[12/05 00:47:40   5909s] **WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+[12/05 00:47:40   5909s] Type 'man IMPEXT-3530' for more detail.
+[12/05 00:47:40   5909s] PreRoute RC Extraction called for design cmp.
+[12/05 00:47:40   5909s] RC Extraction called in multi-corner(1) mode.
+[12/05 00:47:40   5909s] **WARN: (IMPEXT-6197):	The Cap table file is not specified. This will result in lower parasitic accuracy when using preRoute extraction or postRoute extraction with effort level 'low'. It is recommended to generate the Cap table file using the 'generateCapTbl' command and specify it before extraction using 'create_rc_corner/update_rc_corner -cap_table'.
+[12/05 00:47:40   5909s] Type 'man IMPEXT-6197' for more detail.
+[12/05 00:47:40   5909s] RCMode: PreRoute
+[12/05 00:47:40   5909s]       RC Corner Indexes            0   
+[12/05 00:47:40   5909s] Capacitance Scaling Factor   : 1.00000 
+[12/05 00:47:40   5909s] Resistance Scaling Factor    : 1.00000 
+[12/05 00:47:40   5909s] Clock Cap. Scaling Factor    : 1.00000 
+[12/05 00:47:40   5909s] Clock Res. Scaling Factor    : 1.00000 
+[12/05 00:47:40   5909s] Shrink Factor                : 1.00000
+[12/05 00:47:40   5909s] PreRoute extraction is honoring NDR/Shielding/ExtraSpace for clock nets.
+[12/05 00:47:42   5911s] Updating RC grid for preRoute extraction ...
+[12/05 00:47:42   5911s] Initializing multi-corner resistance tables ...
+[12/05 00:47:47   5914s] PreRoute RC Extraction DONE (CPU Time: 0:00:04.7  Real Time: 0:00:07.0  MEM: 2164.336M)
+[12/05 00:47:52   5914s] <CMD> all_hold_analysis_views 
+[12/05 00:47:52   5914s] <CMD> all_setup_analysis_views 
+[12/05 00:48:10   5920s] <CMD> write_sdf  -ideal_clock_network ../Innovus-PNR/cmpcrc
+[12/05 00:48:11   5920s] **WARN: (SDF-808):	The software is currently operating in a high performance mode which optimizes the handling of multiple timing arcs between input and output pin pairs. With the current settings, the SDF file generated will contain the same delay information for all of these arcs. To have the SDF recalculated with explicit pin pair data, you should use the option '-recompute_parallel_arcs'. This setting is recommended for generating SDF for functional  simulation applications.
+[12/05 00:48:12   5921s] #################################################################################
+[12/05 00:48:12   5921s] # Design Stage: PostRoute
+[12/05 00:48:12   5921s] # Design Name: cmp
+[12/05 00:48:12   5921s] # Design Mode: 90nm
+[12/05 00:48:12   5921s] # Analysis Mode: MMMC Non-OCV 
+[12/05 00:48:12   5921s] # Parasitics Mode: No SPEF/RCDB
+[12/05 00:48:12   5921s] # Signoff Settings: SI Off 
+[12/05 00:48:12   5921s] #################################################################################
+[12/05 00:48:34   5935s] Topological Sorting (REAL = 0:00:01.0, MEM = 2209.6M, InitMEM = 2194.4M)
+[12/05 00:48:37   5937s] End AAE Lib Interpolated Model. (MEM=2225.66 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[12/05 00:48:38   5938s] **WARN: (IMPEXT-2882):	Unable to find the resistance for via 'M3_M2_via' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+[12/05 00:48:38   5938s] **WARN: (IMPEXT-2882):	Unable to find the resistance for via 'M4_M3_via' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+[12/05 00:48:38   5938s] **WARN: (IMPEXT-2882):	Unable to find the resistance for via 'M2_M1_viaC' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+[12/05 00:48:38   5938s] **WARN: (IMPEXT-2882):	Unable to find the resistance for via 'M5_M4_via' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+[12/05 00:48:38   5938s] **WARN: (IMPEXT-2882):	Unable to find the resistance for via 'M6_M5_via' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+[12/05 00:48:38   5938s] **WARN: (IMPEXT-2882):	Unable to find the resistance for via 'M7_M6_via' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+[12/05 00:48:38   5938s] **WARN: (IMPEXT-2882):	Unable to find the resistance for via 'M9_M8_via' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+[12/05 00:48:38   5938s] **WARN: (IMPEXT-2882):	Unable to find the resistance for via 'M8_M7_via' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+[12/05 00:48:56   5947s] **WARN: (IMPEXT-2882):	Unable to find the resistance for via 'M10_M9_via' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+[12/05 01:05:55   6576s] Total number of fetched objects 203630
+[12/05 01:05:58   6578s] End Timing Check Calculation. (CPU Time=0:00:01.9, Real Time=0:00:03.0)
+[12/05 01:05:58   6578s] End delay calculation. (MEM=2289.91 CPU=0:10:40 REAL=0:17:21)
+[12/05 01:05:58   6578s] *** CDM Built up (cpu=0:10:57  real=0:17:46  mem= 2289.9M) ***
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/reg_nicEn_reg/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/reg_nicEn_reg/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/out_stat_reg_reg/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/out_stat_reg_reg/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_0_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_0_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_1_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_1_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_2_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_2_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_3_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_3_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_4_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_4_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_5_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_5_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_6_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_6_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_7_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_7_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_8_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_8_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_9_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_9_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_10_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_10_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_11_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_11_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_12_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_12_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_13_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_13_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_14_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_14_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_15_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_15_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_16_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_16_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-801):	Both the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_17_/D are negative, resulting in an illegal SDF V3.0 SETUPHOLD sum.   Conservative values of zero will written for both checks. This condition maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] **WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin nic_0/net_do_reg_17_/D is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+[12/05 01:06:13   6587s] Message <SDF-801> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[12/05 01:06:13   6587s] Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.

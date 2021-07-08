@@ -1,0 +1,714 @@
+
+Running Test # 1 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         215 cycles
+Simulation complete via $finish(1) at time 7136 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 3.0s user = 3.3s total (5.5s, 61.0% cpu)
+
+Running Test # 2 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         215 cycles
+Simulation complete via $finish(1) at time 7136 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.3s system + 1.6s user = 1.9s total (3.7s, 51.5% cpu)
+
+Running Test # 3 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         215 cycles
+Simulation complete via $finish(1) at time 7136 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.3s system + 3.3s user = 3.6s total (8.2s, 44.2% cpu)
+
+Running Test # 4 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         215 cycles
+Simulation complete via $finish(1) at time 7136 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.3s system + 2.6s user = 2.9s total (5.4s, 53.7% cpu)
+
+Running Test # 5 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.5s system + 6.1s user = 6.5s total (9.2s, 71.2% cpu)
+
+Running Test # 6 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 5.2s user = 5.6s total (11.2s, 49.9% cpu)
+
+Running Test # 7 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 5.9s user = 6.3s total (11.5s, 54.6% cpu)
+
+Running Test # 8 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 3.7s user = 4.0s total (7.6s, 53.5% cpu)
+
+Running Test # 9 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 3.7s user = 4.1s total (7.7s, 52.9% cpu)
+
+Running Test # 10 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 3.7s user = 4.0s total (6.5s, 61.6% cpu)
+
+Running Test # 11 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.3s system + 6.5s user = 6.8s total (10.2s, 66.1% cpu)
+
+Running Test # 12 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 6.8s user = 7.2s total (12.0s, 60.0% cpu)
+
+Running Test # 13 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.3s system + 6.6s user = 6.9s total (12.2s, 56.5% cpu)
+
+Running Test # 14 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 4.2s user = 4.6s total (7.2s, 63.1% cpu)
+
+Running Test # 15 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 4.1s user = 4.5s total (8.2s, 54.7% cpu)
+
+Running Test # 16 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 3.8s user = 4.2s total (7.4s, 57.0% cpu)
+
+Running Test # 17 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 4.3s user = 4.7s total (9.0s, 52.0% cpu)
+
+Running Test # 18 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 4.2s user = 4.6s total (7.8s, 58.5% cpu)
+
+Running Test # 19 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 3.8s user = 4.2s total (6.2s, 67.0% cpu)
+
+Running Test # 20 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.3s system + 4.3s user = 4.6s total (7.3s, 62.8% cpu)
+
+Running Test # 21 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 4.7s user = 5.2s total (9.2s, 56.0% cpu)
+
+Running Test # 22 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 4.0s user = 4.4s total (8.2s, 53.9% cpu)
+
+Running Test # 23 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 3.8s user = 4.2s total (7.5s, 55.5% cpu)
+
+Running Test # 24 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.3s system + 3.8s user = 4.1s total (7.4s, 55.3% cpu)
+
+Running Test # 25 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.6s system + 6.2s user = 6.8s total (11.4s, 60.2% cpu)
+
+Running Test # 26 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 4.3s user = 4.7s total (8.8s, 53.3% cpu)
+
+Running Test # 27 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 5.7s user = 6.1s total (11.7s, 52.5% cpu)
+
+Running Test # 28 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 3.9s user = 4.3s total (8.3s, 52.3% cpu)
+
+Running Test # 29 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 5.7s user = 6.1s total (12.1s, 50.3% cpu)
+
+Running Test # 30 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 4.4s user = 4.8s total (7.3s, 65.7% cpu)
+
+Running Test # 31 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 4.1s user = 4.5s total (7.8s, 58.0% cpu)
+
+Running Test # 32 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 4.3s user = 4.8s total (8.2s, 57.8% cpu)
+
+Running Test # 33 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 4.6s user = 5.0s total (8.5s, 58.9% cpu)
+
+Running Test # 34 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 6.3s user = 6.7s total (11.4s, 58.6% cpu)
+
+Running Test # 35 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 7.7s user = 8.1s total (15.1s, 53.9% cpu)
+
+Running Test # 36 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.3s system + 5.6s user = 5.9s total (11.4s, 52.1% cpu)
+
+Running Test # 37 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 5.1s user = 5.5s total (9.8s, 56.0% cpu)
+
+Running Test # 38 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 3.7s user = 4.0s total (7.9s, 50.8% cpu)
+
+Running Test # 39 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.3s system + 5.8s user = 6.1s total (9.0s, 67.6% cpu)
+
+Running Test # 40 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.3s system + 5.3s user = 5.7s total (9.6s, 59.0% cpu)
+
+Running Test # 41 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 5.1s user = 5.6s total (9.1s, 61.0% cpu)
+
+Running Test # 42 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.3s system + 4.0s user = 4.3s total (7.9s, 54.2% cpu)
+
+Running Test # 43 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.3s system + 5.1s user = 5.5s total (10.4s, 52.7% cpu)
+
+Running Test # 44 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.3s system + 4.4s user = 4.8s total (8.2s, 57.9% cpu)
+
+Running Test # 45 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 5.6s user = 5.9s total (9.6s, 61.7% cpu)
+
+Running Test # 46 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 5.3s user = 5.6s total (10.6s, 52.8% cpu)
+
+Running Test # 47 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.3s system + 6.6s user = 6.9s total (13.3s, 51.7% cpu)
+
+Running Test # 48 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.3s system + 5.0s user = 5.3s total (9.3s, 57.4% cpu)
+
+Running Test # 49 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 6.3s user = 6.7s total (12.5s, 53.7% cpu)
+
+Running Test # 50 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.4s system + 5.4s user = 5.7s total (11.5s, 49.9% cpu)
+
+Running Test # 51 
+ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -INPUT ./scripts/runscript_nogui.tcl work.tb_cmp
+Loading snapshot work.tb_cmp:module .................... Done
+ncsim> probe -create -shm tb -all -depth all
+ncsim: *E,PNOOBJ: Path element could not be found: tb.
+ncsim> # simvision -input ./scripts/ddr2sdram.sv
+ncsim> run
+The program completed in         224 cycles
+Simulation complete via $finish(1) at time 7424 NS + 1
+./tb/tb_cmp.v:234 	$finish;
+ncsim> exit
+ncsim: Memory Usage - 36.3M program + 321.1M data = 357.4M total (357.9M Peak)
+ncsim: CPU Usage - 0.5s system + 6.6s user = 7.0s total (13.0s, 53.8% cpu)
